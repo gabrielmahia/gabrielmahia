@@ -1,8 +1,7 @@
 # Gabriel Mahia
 
 **Decision infrastructure for under-resourced institutions.**
-Kenyan diaspora engineer based in the USA — building systems that reduce opacity at the point of decision,
-borrowing patterns from the West and localising them for East Africa.
+Kenyan diaspora engineer based in the USA — bridging Western technical patterns with East Africa.
 
 ---
 
@@ -10,82 +9,90 @@ borrowing patterns from the West and localising them for East Africa.
 
 | Repo | What it does |
 |------|-------------|
-| [catholic-network-tools](https://github.com/gabrielmahia/catholic-network-tools) | Parish management and stewardship platform. 17 pages, 56 tests, Gemini search grounding. Live. |
-| [openresilience](https://github.com/gabrielmahia/openresilience) | Drought and food stress intelligence for NGOs and farmers across Kenya's 47 counties. SMS alerts via Africa's Talking. |
-| [quantum-maestro](https://github.com/gabrielmahia/quantum-maestro) | Macro trading analysis — IWT regime detection, Warsh framework, Kelly sizing. |
+| [catholic-network-tools](https://github.com/gabrielmahia/catholic-network-tools) | Parish stewardship platform — 17 pages, 56 tests, Gemini search grounding, serving the 1.3B Catholic community |
+| [openresilience](https://github.com/gabrielmahia/openresilience) | Drought & food stress intelligence for NGOs and farmers — SMS alerts to Kenya's 47 counties |
+| [quantum-maestro](https://github.com/gabrielmahia/quantum-maestro) | Macro trading analysis — IWT regime detection, Warsh framework, Kelly position sizing |
 
 ---
 
-## East Africa fintech — open-source toolkit
+## East Africa open-source ecosystem
 
-### Application layer
-| Repo | What it does |
-|------|-------------|
-| [hela](https://github.com/gabrielmahia/hela) | Streamlit chama management app — contributions, loans, fines, cycle dashboard. |
-| [remit-lens](https://github.com/gabrielmahia/remit-lens) | True cost comparison for diaspora remittances to Kenya. 7 providers, live ECB rates, hidden spread surfaced. |
-| [jibu](https://github.com/gabrielmahia/jibu) | AI civic rights assistant for Kenya — labour law, land rights, government services. Kiswahili + English. |
+### Payments & fintech infrastructure
 
-### Libraries and SDKs
-| Repo | What it does |
-|------|-------------|
-| [mpesa-python](https://github.com/gabrielmahia/mpesa-python) | M-Pesa Daraja v3 SDK — STK Push, B2C, C2B, account balance. Zero dependencies. 33 tests. |
-| [chama-protocol](https://github.com/gabrielmahia/chama-protocol) | Domain model for Kenya's rotating credit associations — Chama, Member, Cycle, Contribution, Loan. |
-| [mpesa-webhooks](https://github.com/gabrielmahia/mpesa-webhooks) | Production FastAPI handler for Daraja callbacks — idempotent, dead-letter queue, pluggable storage. 42 tests. |
+| Repo | What it does | Tests |
+|------|-------------|-------|
+| [mpesa-python](https://github.com/gabrielmahia/mpesa-python) | M-Pesa Daraja v3 SDK — STK Push, B2C, C2B, account balance. Zero external dependencies. | 33 |
+| [mpesa-webhooks](https://github.com/gabrielmahia/mpesa-webhooks) | FastAPI handler for Daraja callbacks — idempotent, HMAC-verified, pluggable storage, dead-letter queue | 44 |
+| [daraja-mock](https://github.com/gabrielmahia/daraja-mock) | Local test server for Daraja v3 — configurable scenarios (user cancellation, insufficient funds, timeout), no Safaricom account needed | 37 |
+| [remit-lens](https://github.com/gabrielmahia/remit-lens) | Diaspora remittance comparison — true cost (fee + spread) across 7 providers, live ECB rates | 19 |
 
-### Test infrastructure
-| Repo | What it does |
-|------|-------------|
-| [daraja-mock](https://github.com/gabrielmahia/daraja-mock) | Local test server for the Daraja v3 API. Configurable failure scenarios. Zero dependencies. 32 tests. |
+### Chama (rotating credit)
+
+| Repo | What it does | Tests |
+|------|-------------|-------|
+| [chama-protocol](https://github.com/gabrielmahia/chama-protocol) | Domain library for Kenya's ROSCAs — Chama, Member, Cycle, Contribution, Loan models | 25 |
+| [hela](https://github.com/gabrielmahia/hela) | Streamlit chama management app built on chama-protocol | — |
 
 ### Reference data
-| Repo | What it does |
-|------|-------------|
-| [kenya-counties](https://github.com/gabrielmahia/kenya-counties) | Kenya's 47 counties — codes, capitals, regions, 2019 census population, area. Zero dependencies. 36 tests. |
 
-### Documentation
+| Repo | What it does | Tests |
+|------|-------------|-------|
+| [kenya-counties](https://github.com/gabrielmahia/kenya-counties) | All 47 counties — IEBC codes, capitals, regions, 2019 KNBS census. Zero dependencies. | 36 |
+
+### Civic & AI
+
 | Repo | What it does |
 |------|-------------|
-| [nairobi-stack](https://github.com/gabrielmahia/nairobi-stack) | Engineering guide for building in East Africa — M-Pesa, SMS, mobile UX, regulatory landscape, chama domain. |
+| [jibu](https://github.com/gabrielmahia/jibu) | AI civic rights assistant for Kenya — labour law, land rights, consumer rights in English and Kiswahili |
+
+### Engineering guides
+
+| Repo | What it covers |
+|------|---------------|
+| [nairobi-stack](https://github.com/gabrielmahia/nairobi-stack) | M-Pesa integration · SMS infrastructure · Mobile-first UX · Kenya regulatory landscape · Chama digitisation |
 
 ---
 
-## How the toolkit fits together
+## How the ecosystem fits together
 
 ```
-mpesa-python          ← STK Push, B2C, C2B, account balance
-    └── mpesa-webhooks    ← handles the callbacks (idempotent, DLQ)
-    └── daraja-mock       ← test companion (zero Safaricom account needed)
+mpesa-python          ← SDK layer (auth, STK Push, B2C, C2B)
+    ↑ used by
+mpesa-webhooks        ← callback handler (idempotency, dead-letter, HMAC)
+daraja-mock           ← test doubles for both of the above
 
-chama-protocol        ← domain model (Chama, Member, Cycle, Contribution, Loan)
-    └── hela              ← Streamlit UI on top of chama-protocol
+chama-protocol        ← domain library (Chama, Member, Loan, Contribution)
+    ↑ used by
+hela                  ← Streamlit UI built on chama-protocol
 
 kenya-counties        ← reference data used by openresilience + hela
-nairobi-stack         ← documentation: M-Pesa, SMS, UX, regulatory, chama
+nairobi-stack         ← guides documenting all of the above
 ```
 
 ---
 
 ## Approach
 
-Every project here is organised around one question:
-**what does this person need to decide, and what data are they missing?**
+**Opacity reduction at the point of decision.** Every project in this portfolio
+surfaces information that was previously inaccessible, expensive, or hidden
+to the people who most need it: parish administrators, NGO field officers,
+smallholder farmers, diaspora workers sending money home, chama treasurers.
 
-For a parish treasurer that is contribution history and member stewardship trends.
-For an NGO field officer in drought response it is rainfall, NDVI, and water stress by county.
-For a diaspora engineer integrating payments it is a test server that behaves like Safaricom without requiring Safaricom.
-
-The answer in each case is the same: reduce the information asymmetry, preserve privacy, and build within the institutional trust networks that already exist.
-
----
-
-## Standards
-
-- **Licensing:** CC BY-NC-ND 4.0 across all open-source repos
-- **Trust integrity:** DEMO data clearly labelled, no simulated data presented as real
-- **CI:** lint + test on every push across Python 3.10 / 3.11 / 3.12
-- **Security:** responsible disclosure at contact@aikungfu.dev
+Technical choices follow from users. SMS for farmers without smartphones.
+USSD patterns for parish systems in low-connectivity areas. Kiswahili at
+every access point. M-Pesa as the payment layer, not an afterthought.
 
 ---
 
-*Open to collaboration on civic tech, humanitarian infrastructure, African fintech, and institutional decision tools.*
-*Email: contact@aikungfu.dev*
+## Governance standards
+
+- Licence: CC BY-NC-ND 4.0 (production platforms) · AGPL-3.0 (where noted)
+- All systems: DEMO / REAL labelling, no implied institutional partnerships
+- Methodology documentation included in every analytical system
+- CI/CD: GitHub Actions (lint + test) on every active repository
+- Security: HMAC webhook verification, privacy-first data architecture
+
+---
+
+*Open to collaboration on civic tech, humanitarian infrastructure, East African fintech, and institutional decision tools.*
+*Contact: contact@aikungfu.dev*
