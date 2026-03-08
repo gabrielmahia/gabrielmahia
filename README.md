@@ -51,6 +51,7 @@ Kenyan diaspora engineer, USA — bridging Western technical patterns with East 
 
 | Repo | What it does |
 |------|-------------|
+| [floodwatch-kenya](https://github.com/gabrielmahia/floodwatch-kenya) | Urban flood resilience — incident tracking, policy accountability, 5 Kenya cities |
 | [jibu](https://github.com/gabrielmahia/jibu) | Civic rights AI — labour law, land rights, consumer rights in EN + Kiswahili |
 
 ### Engineering guides
