@@ -4,7 +4,7 @@
 Kenyan diaspora engineer — bridging Western technical patterns with East Africa.
 
 13 deployed tools · 5 PyPI packages · shipped since January 2026  
-Portfolio: [gabrielmahia.github.io](https://gabrielmahia.github.io) · Engineering guide: [nairobi-stack](https://gabrielmahia.github.io/nairobi-stack)
+Portfolio: [gabrielmahia.github.io](https://gabrielmahia.github.io) · Engineering blog: [aikungfu.dev](https://aikungfu.dev) · Guide: [nairobi-stack](https://gabrielmahia.github.io/nairobi-stack)
 
 ---
 
