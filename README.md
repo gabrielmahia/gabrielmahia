@@ -3,43 +3,43 @@
 **Decision infrastructure for under-resourced institutions.**  
 Kenyan diaspora engineer — bridging Western technical patterns with East Africa.
 
-13 deployed tools · 5 PyPI packages · shipped since January 2026  
+13 deployed tools · 5 PyPI packages · 7+ live APIs · shipped since January 2026  
 Portfolio: [gabrielmahia.github.io](https://gabrielmahia.github.io) · Engineering blog: [aikungfu.dev](https://aikungfu.dev) · Guide: [nairobi-stack](https://gabrielmahia.github.io/nairobi-stack)
 
 ---
 
 ## Civic & government intelligence
 
-| App | What it does | Live |
-|---|---|---|
-| [Mafuriko](https://github.com/gabrielmahia/floodwatch-kenya) | Urban flood intelligence — 25 cities, incident tracking, policy accountability | [↗](https://floodwatch-kenya.streamlit.app) |
-| [Macho ya Wananchi](https://github.com/gabrielmahia/civic-decoder) | Civic intelligence — MP tracker, bill tracker, CDF watchdog, 13th Parliament | [↗](https://civic-decoder.streamlit.app) |
-| [Hesabu](https://github.com/gabrielmahia/budget-sentinel) | County budget absorption — Controller of Budget data, 46 counties | [↗](https://budget-sentinel.streamlit.app) |
-| [Hifadhi](https://github.com/gabrielmahia/landwatch) | Land & river watch — riparian encroachment, NEMA/WRMA data | [↗](https://hifadhi.streamlit.app) |
-| [Jibu](https://github.com/gabrielmahia/jibu) | Civic rights AI — English + Kiswahili, Constitution, Employment Act, Land Act | [↗](https://jibu.streamlit.app) |
+| App | What it does | Live data | App |
+|---|---|---|---|
+| [Mafuriko](https://github.com/gabrielmahia/floodwatch-kenya) | Urban flood intelligence — 25 cities, incident tracking, policy accountability | Open-Meteo 7-day rain · NDMA alerts | [↗](https://floodwatch-kenya.streamlit.app) |
+| [Macho ya Wananchi](https://github.com/gabrielmahia/civic-decoder) | Civic intelligence — MP tracker, bill tracker, CDF watchdog, 13th Parliament | COB RSS live publications | [↗](https://civic-decoder.streamlit.app) |
+| [Hesabu](https://github.com/gabrielmahia/budget-sentinel) | County budget absorption — Controller of Budget data, 46 counties | COB RSS · live fiscal publications | [↗](https://budget-sentinel.streamlit.app) |
+| [Hifadhi](https://github.com/gabrielmahia/landwatch) | Land & river watch — riparian encroachment, NEMA/WRMA data | Open-Meteo 6-city rain · NDMA | [↗](https://hifadhi.streamlit.app) |
+| [Jibu](https://github.com/gabrielmahia/jibu) | Civic rights AI — English + Kiswahili, Constitution, Employment Act, Land Act | LSK · FIDA · Judiciary RSS · KES rate | [↗](https://jibu.streamlit.app) |
 
 ## Agriculture & climate intelligence
 
-| App | What it does | Live |
-|---|---|---|
-| [WapiMaji](https://github.com/gabrielmahia/openresilience) | Drought & water stress — SMS alerts to Kenya's 47 counties, basic phone access | [↗](https://wapimaji.streamlit.app) |
-| [JuaMazao](https://github.com/gabrielmahia/mazao-intel) | Crop price intelligence — WFP live data, smallholder market access | [↗](https://mazao-intel.streamlit.app) |
+| App | What it does | Live data | App |
+|---|---|---|---|
+| [WapiMaji](https://github.com/gabrielmahia/openresilience) | Drought & water stress — SMS alerts to Kenya's 47 counties, basic phone access | Open-Meteo per county · NDMA alerts | [↗](https://wapimaji.streamlit.app) |
+| [JuaMazao](https://github.com/gabrielmahia/mazao-intel) | Crop price intelligence — WFP live data, smallholder market access | WFP/HDX prices · Open-Meteo agri zones | [↗](https://mazao-intel.streamlit.app) |
 
 ## Financial tools
 
-| App | What it does | Live |
-|---|---|---|
-| [ChaguaSacco](https://github.com/gabrielmahia/sacco-scout) | SACCO comparison — SASRA 2023 data, dividends, loan rates, capital adequacy | [↗](https://sacco-scout.streamlit.app) |
-| [Peleka](https://github.com/gabrielmahia/remit-lens) | Diaspora remittance comparison — true cost across 7 corridors | [↗](https://remit-lens.streamlit.app) |
-| [Hela](https://github.com/gabrielmahia/hela) | Chama treasury — M-Pesa integration, rotating credit, cycles, payouts | [↗](https://hela.streamlit.app) |
-| [Msimamo](https://github.com/gabrielmahia/quantum-maestro) | Macro trading — IWT regime detection, Warsh framework, Kelly sizing | [↗](https://quantum-maestro.streamlit.app) |
+| App | What it does | Live data | App |
+|---|---|---|---|
+| [ChaguaSacco](https://github.com/gabrielmahia/sacco-scout) | SACCO comparison — SASRA 2023 data, dividends, loan rates, capital adequacy | KES rate · WB inflation for real return | [↗](https://sacco-scout.streamlit.app) |
+| [Peleka](https://github.com/gabrielmahia/remit-lens) | Diaspora remittance comparison — true cost across 7 corridors | open.er-api.com · WB 5.26% benchmark | [↗](https://remit-lens.streamlit.app) |
+| [Hela](https://github.com/gabrielmahia/hela) | Chama treasury — M-Pesa integration, rotating credit, cycles, payouts | KES/GBP/EUR live · COB compliance | [↗](https://hela.streamlit.app) |
+| [Msimamo](https://github.com/gabrielmahia/quantum-maestro) | Macro trading — IWT regime detection, Warsh framework, Kelly sizing | KES live · WB Kenya macro · NDMA signal | [↗](https://quantum-maestro.streamlit.app) |
 
 ## Community platforms
 
-| App | What it does | Live |
-|---|---|---|
-| [Jumuia](https://github.com/gabrielmahia/catholic-network-tools) | Parish stewardship — church finder, M-Pesa giving, AI assistant, USSD access | [↗](https://catholicparishsteward.streamlit.app) |
-| [Dagoretti](https://github.com/gabrielmahia/dagoretti-community-hub) | School alumni hub — KCSE records, mentorship, community coordination | [↗](https://dagoretti-community-hub.streamlit.app) |
+| App | What it does | Live data | App |
+|---|---|---|---|
+| [Jumuia](https://github.com/gabrielmahia/catholic-network-tools) | Parish stewardship — church finder, M-Pesa giving, AI assistant, USSD access | KES rate · USD/GBP/EUR/CAD giving FX · M-Pesa ping | [↗](https://catholicparishsteward.streamlit.app) |
+| [Dagoretti](https://github.com/gabrielmahia/dagoretti-community-hub) | School alumni hub — KCSE records, mentorship, community coordination | World Bank Kenya education + youth unemployment | [↗](https://dagoretti-community-hub.streamlit.app) |
 
 ---
 
