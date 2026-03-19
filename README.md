@@ -3,7 +3,7 @@
 **Decision infrastructure for under-resourced institutions.**  
 Kenyan diaspora engineer — bridging Western technical patterns with East Africa.
 
-13 deployed tools · 5 PyPI packages · 7+ live APIs · shipped since January 2026  
+13 deployed tools · 5 PyPI packages · 13/13 apps with live data · shipped since January 2026  
 Portfolio: [gabrielmahia.github.io](https://gabrielmahia.github.io) · Engineering blog: [aikungfu.dev](https://aikungfu.dev) · Guide: [nairobi-stack](https://gabrielmahia.github.io/nairobi-stack)
 
 ---
@@ -30,7 +30,7 @@ Portfolio: [gabrielmahia.github.io](https://gabrielmahia.github.io) · Engineeri
 | App | What it does | Live data | App |
 |---|---|---|---|
 | [ChaguaSacco](https://github.com/gabrielmahia/sacco-scout) | SACCO comparison — SASRA 2023 data, dividends, loan rates, capital adequacy | KES rate · WB inflation for real return | [↗](https://sacco-scout.streamlit.app) |
-| [Peleka](https://github.com/gabrielmahia/remit-lens) | Diaspora remittance comparison — true cost across 7 corridors | open.er-api.com · WB 5.26% benchmark | [↗](https://remit-lens.streamlit.app) |
+| [TumaPesa](https://github.com/gabrielmahia/remit-lens) | Diaspora remittance comparison — true cost across 7 corridors | open.er-api.com · WB 5.26% benchmark | [↗](https://remit-lens.streamlit.app) |
 | [Hela](https://github.com/gabrielmahia/hela) | Chama treasury — M-Pesa integration, rotating credit, cycles, payouts | KES/GBP/EUR live · COB compliance | [↗](https://hela.streamlit.app) |
 | [Msimamo](https://github.com/gabrielmahia/quantum-maestro) | Macro trading — IWT regime detection, Warsh framework, Kelly sizing | KES live · WB Kenya macro · NDMA signal | [↗](https://quantum-maestro.streamlit.app) |
 
@@ -69,6 +69,27 @@ Portfolio: [gabrielmahia.github.io](https://gabrielmahia.github.io) · Engineeri
 |---|---|
 | [kenya-counties](https://github.com/gabrielmahia/kenya-counties) | 47 counties — IEBC codes, capitals, regions, 2019 KNBS census |
 | [nairobi-stack](https://github.com/gabrielmahia/nairobi-stack) | Engineering guides — M-Pesa, SMS, USSD, mobile UX, Kenya DPA, chama patterns |
+
+---
+
+## Live data architecture
+
+All 13 apps pull real-time or near-real-time data at load — no static dashboards.
+
+| Source | Used by | Update freq |
+|---|---|---|
+| [open.er-api.com](https://open.er-api.com) | remit-lens, sacco-scout, hela, quantum-maestro, jibu, catholic-network-tools | Hourly |
+| [Open-Meteo](https://open-meteo.com) | floodwatch-kenya, openresilience, landwatch, mazao-intel | Hourly |
+| [ndma.go.ke RSS](https://www.ndma.go.ke/feed/) | floodwatch-kenya, openresilience, landwatch, quantum-maestro | Every 2h |
+| [cob.go.ke RSS](https://cob.go.ke/feed/) | budget-sentinel, civic-decoder, hela | Hourly |
+| [WFP/HDX](https://data.humdata.org) | mazao-intel | Every 6h |
+| [World Bank API](https://api.worldbank.org) | sacco-scout, remit-lens, quantum-maestro, dagoretti | Daily |
+| [LSK / FIDA / Judiciary RSS](https://www.lsk.or.ke/feed/) | jibu | Every 2h |
+| [Yahoo Finance](https://finance.yahoo.com) | quantum-maestro | Real-time |
+| [Safaricom Daraja](https://sandbox.safaricom.co.ke) | catholic-network-tools | Ping on load |
+
+All free, no API keys required (except Gemini AI assistant and M-Pesa giving).  
+All degrade gracefully — seed data shown when feeds unavailable.
 
 ---
 
@@ -119,6 +140,7 @@ mobile-first on every interface.
 - License: CC BY-NC-ND 4.0 (apps) · MIT (libraries + MCP tools)
 - DEMO / REAL labelling on every analytical system
 - CI/CD: GitHub Actions (lint + test + publish) on every repository
+- Tests: 307 passing across all repos (live data functions smoke-tested with mocks)
 - Security: HMAC webhook verification, privacy-first architecture
 - All 5 packages published to PyPI via Trusted Publisher (OIDC — no API tokens)
 
