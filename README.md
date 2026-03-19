@@ -49,7 +49,7 @@ Portfolio: [gabrielmahia.github.io](https://gabrielmahia.github.io) · Engineeri
 
 | Repo | What it does | PyPI |
 |---|---|---|
-| [mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp) | MCP server — M-Pesa + Africa's Talking tools for AI agents | [mpesa-mcp](https://pypi.org/project/mpesa-mcp/) |
+| [mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp) | MCP server — M-Pesa + Africa's Talking tools for AI agents | [mpesa-mcp](https://pypi.org/project/mpesa-mcp/) · [Glama](https://glama.ai/mcp/servers/gabrielmahia/mpesa-mcp) |
 | [mpesa-python](https://github.com/gabrielmahia/mpesa-python) | SDK — Safaricom Daraja v3, STK Push, B2C, C2B, zero deps | [daraja-v3](https://pypi.org/project/daraja-v3/) |
 | [daraja-mock](https://github.com/gabrielmahia/daraja-mock) | Test server — configurable scenarios, no Safaricom account needed | [daraja-mock](https://pypi.org/project/daraja-mock/) |
 | [pesa-cli](https://github.com/gabrielmahia/pesa-cli) | CLI — stk-push, stk-query, b2c, balance, config | [pesa-cli](https://pypi.org/project/pesa-cli/) |
@@ -119,6 +119,7 @@ gabrielmahia.github.io ← portfolio
 | Project | Contribution |
 |---|---|
 | [context-hub](https://github.com/andrewyng/context-hub) | First African fintech docs — Daraja, Africa's Talking (SMS, USSD, Airtime) |
+| [Glama MCP Registry](https://glama.ai/mcp/servers/gabrielmahia/mpesa-mcp) | mpesa-mcp — verified listing with badge |
 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | mpesa-mcp — M-Pesa + Africa's Talking MCP server |
 
 ---
