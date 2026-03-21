@@ -20,19 +20,19 @@ Not a portfolio. A position.
 Every tool here was built because a specific community was making decisions without information that existed but was inaccessible to them. The design constraint is always the same: works on a 3G connection, readable in Kiswahili, free to use, degrades gracefully when the internet is slow.
 
 **For governments and watchdogs**
-- [Hesabu](https://budget-sentinel.streamlit.app) — tracks county budget absorption across 46 counties. Built because the Controller of Budget publishes this data in PDFs that no county officer has time to read.
-- [Macho ya Wananchi](https://civic-decoder.streamlit.app) — MP attendance, bill status, CDF utilisation for Kenya's 13th Parliament.
-- [Jibu](https://jibu.streamlit.app) — constitutional rights AI in English + Kiswahili. LSK and Judiciary feeds live.
+- [Hesabu](https://hesabu.streamlit.app) — tracks county budget absorption across 46 counties. Built because the Controller of Budget publishes this data in PDFs that no county officer has time to read.
+- [Macho ya Wananchi](https://macho-ya-wananchi.streamlit.app) — MP attendance, bill status, CDF utilisation for Kenya's 13th Parliament.
+- [Jibu](https://jibuyangu.streamlit.app) — constitutional rights AI in English + Kiswahili. LSK and Judiciary feeds live.
 
 **For farmers and field agents**
 - [WapiMaji](https://wapimaji.streamlit.app) — water stress + drought alerts via SMS to basic phones. All 47 counties.
-- [JuaMazao](https://mazao-intel.streamlit.app) — live WFP food prices + rainfall by agricultural zone. Designed for the smallholder making a planting decision.
+- [JuaMazao](https://juamazao.streamlit.app) — live WFP food prices + rainfall by agricultural zone. Designed for the smallholder making a planting decision.
 - [Mafuriko](https://floodwatch-kenya.streamlit.app) — 25-city flood intelligence with NDMA signals.
 
 **For diaspora and community finance**
-- [TumaPesa](https://remit-lens.streamlit.app) — true cost of remittances across 7 corridors. World Bank 5.26% benchmark shown.
-- [Hela](https://hela.streamlit.app) — chama treasury with M-Pesa and diaspora FX rates built in.
-- [Jumuia](https://catholicparishsteward.streamlit.app) — parish giving and stewardship. USD/GBP/EUR/CAD → KES live.
+- [TumaPesa](https://tumapesa.streamlit.app) — true cost of remittances across 7 corridors. World Bank 5.26% benchmark shown.
+- [Hela](https://helaismoney.streamlit.app) — chama treasury with M-Pesa and diaspora FX rates built in.
+- [Jumuia](https://jumuia.streamlit.app) — parish giving and stewardship. USD/GBP/EUR/CAD → KES live.
 
 **For developers building on East African infrastructure**
 - [mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp) — MCP server: give your AI agent M-Pesa and Africa's Talking. On the [official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.gabrielmahia).
