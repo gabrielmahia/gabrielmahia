@@ -52,7 +52,7 @@ I build tools that close that gap.
 ### ⛪ Community
 | Tool | What it does | App |
 |------|-------------|-----|
-| [Jumuia](https://github.com/gabrielmahia/catholic-network-tools) | Catholic parish community tools — giving, liturgy, pastoral care | [jumuia.streamlit.app](https://jumuia.streamlit.app) |
+| [Jumuia](https://github.com/gabrielmahia/jumuia) | Catholic parish community tools — giving, liturgy, pastoral care | [jumuia.streamlit.app](https://jumuia.streamlit.app) |
 | [Dagoretti Hub](https://github.com/gabrielmahia/dagoretti-community-hub) | Alumni and community platform | [dagoretti-high-school-community-app.streamlit.app](https://dagoretti-high-school-community-app.streamlit.app) |
 
 ---
