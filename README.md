@@ -1,83 +1,98 @@
+<div align="center">
+
 # Gabriel Mahia
 
-**Ninajenga miundombinu ya maamuzi kwa Afrika Mashariki.**  
-*Building decision infrastructure for East Africa.*
+**Mhandisi anayejenga miundombinu ya maamuzi kwa Afrika Mashariki.**  
+*Engineer building decision infrastructure for East Africa.*
 
-Kenyan diaspora engineer. The problem I keep solving: institutions that hold data that communities need, with no bridge between the two. I build the bridge.
+[![Blog](https://img.shields.io/badge/Blog-aikungfu.dev-00304E?style=flat-square)](https://aikungfu.dev)
+[![Portfolio](https://img.shields.io/badge/Portfolio-All%20Tools-brightgreen?style=flat-square)](https://gabrielmahia.github.io)
+[![Email](https://img.shields.io/badge/Email-contact%40aikungfu.dev-blue?style=flat-square)](mailto:contact@aikungfu.dev)
+[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-mpesa--mcp-orange?style=flat-square)](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.gabrielmahia)
 
-13 deployed tools · 5 PyPI packages · official MCP Registry · January 2026 →
-
----
-
-> *"Opacity is not the absence of data. It is data in a form that cannot be acted on."*
-
----
-
-## What I've built and why
-
-Not a portfolio. A position.
-
-Every tool here was built because a specific community was making decisions without information that existed but was inaccessible to them. The design constraint is always the same: works on a 3G connection, readable in Kiswahili, free to use, degrades gracefully when the internet is slow.
-
-**For governments and watchdogs**
-- [Hesabu](https://hesabu.streamlit.app) — tracks county budget absorption across 46 counties. Built because the Controller of Budget publishes this data in PDFs that no county officer has time to read.
-- [Macho ya Wananchi](https://macho-ya-wananchi.streamlit.app) — MP attendance, bill status, CDF utilisation for Kenya's 13th Parliament.
-- [Jibu](https://jibuyangu.streamlit.app) — constitutional rights AI in English + Kiswahili. LSK and Judiciary feeds live.
-
-**For farmers and field agents**
-- [WapiMaji](https://wapimaji.streamlit.app) — water stress + drought alerts via SMS to basic phones. All 47 counties.
-- [JuaMazao](https://juamazao.streamlit.app) — live WFP food prices + rainfall by agricultural zone. Designed for the smallholder making a planting decision.
-- [Mafuriko](https://floodwatch-kenya.streamlit.app) — 25-city flood intelligence with NDMA signals.
-
-**For diaspora and community finance**
-- [TumaPesa](https://tumapesa.streamlit.app) — true cost of remittances across 7 corridors. World Bank 5.26% benchmark shown.
-- [Hela](https://helaismoney.streamlit.app) — chama treasury with M-Pesa and diaspora FX rates built in.
-- [Jumuia](https://jumuia.streamlit.app) — parish giving and stewardship. USD/GBP/EUR/CAD → KES live.
-
-**For developers building on East African infrastructure**
-- [mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp) — MCP server: give your AI agent M-Pesa and Africa's Talking. On the [official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.gabrielmahia).
-- [daraja-v3](https://pypi.org/project/daraja-v3/) — Python SDK for Safaricom Daraja. Zero dependencies.
-- [nairobi-stack](https://gabrielmahia.github.io/nairobi-stack) — engineering guides: M-Pesa, USSD, SMS, Kenya DPA, mobile-first UX, live data APIs.
+</div>
 
 ---
 
-## What I care about in code
+## The problem I'm working on
 
-No magic dependencies. When a library breaks in a Streamlit Cloud free tier at 2am, there is nobody to call. Every production path has a fallback. Every live data function degrades to seed data. Every secret is an environment variable.
+Data that should reach Kenyan farmers, diaspora families, county officers, and parish communities — doesn't.  
+Not because the data doesn't exist. It does. It's public. It's free.  
+The problem is **opacity**: information published in formats no one can use.
 
-The test suite is not aspirational. 307 tests run on every push. Live data functions are mocked so CI does not depend on external APIs. DEMO and REAL data are labelled differently in every analytical system, because trust is harder to rebuild than a dashboard.
-
-I choose SMS over push notifications, USSD over apps, M-Pesa over Stripe, Kiswahili alongside English, and free tiers over infrastructure that requires a credit card. These are not constraints. They are the design.
+I build tools that close that gap.
 
 ---
 
-## Architecture in one picture
+## 13 deployed tools — live data, free, no login
 
-```
-kenya-counties (reference data)
-      │
-mpesa-python (daraja-v3) ── mpesa-mcp (AI agents) ── official MCP Registry
-      ├── daraja-mock    (test doubles)
-      ├── pesa-cli       (CLI)
-      └── kenya-sms      (Africa's Talking)
-            │
-      chama-protocol ── Hela (chama treasury UI)
-            │
-      13 Streamlit apps ── all 47 counties ── all live data
-            │
-      nairobi-stack (guides for builders doing this next)
+### 🌾 Agriculture & Climate
+| Tool | What it does | App |
+|------|-------------|-----|
+| [WapiMaji](https://github.com/gabrielmahia/openresilience) | Water stress + drought monitoring, SMS alerts for 47 counties | [wapimaji.streamlit.app](https://wapimaji.streamlit.app) |
+| [JuaMazao](https://github.com/gabrielmahia/mazao-intel) | WFP live crop prices, 226 markets, rainfall signals | [juamazao.streamlit.app](https://juamazao.streamlit.app) |
+| [FloodWatch Kenya](https://github.com/gabrielmahia/floodwatch-kenya) | Flood incident tracking and policy gap analysis | [floodwatch-kenya.streamlit.app](https://floodwatch-kenya.streamlit.app) |
+| [Hifadhi](https://github.com/gabrielmahia/landwatch) | Land encroachment and river watch | [hifadhi.streamlit.app](https://hifadhi.streamlit.app) |
+
+### 🏛️ Civic & Accountability
+| Tool | What it does | App |
+|------|-------------|-----|
+| [Macho ya Wananchi](https://github.com/gabrielmahia/civic-decoder) | MP attendance, CDF tracking, bill status — Parliament of Kenya | [macho-ya-wananchi.streamlit.app](https://macho-ya-wananchi.streamlit.app) |
+| [Hesabu](https://github.com/gabrielmahia/budget-sentinel) | County budget execution — 46 counties, COB data | [hesabu.streamlit.app](https://hesabu.streamlit.app) |
+| [Jibu](https://github.com/gabrielmahia/jibu) | AI civic rights assistant — Kenya Constitution 2010, EN/SW | [jibuyangu.streamlit.app](https://jibuyangu.streamlit.app) |
+| [ChaguaSACCO](https://github.com/gabrielmahia/sacco-scout) | SACCO comparison and discovery | [chaguasacco.streamlit.app](https://chaguasacco.streamlit.app) |
+
+### 💰 Finance & Diaspora
+| Tool | What it does | App |
+|------|-------------|-----|
+| [TumaPesa](https://github.com/gabrielmahia/remit-lens) | True cost of sending money to Kenya — 7 providers, hidden FX fees exposed | [tumapesa.streamlit.app](https://tumapesa.streamlit.app) |
+| [Hela](https://github.com/gabrielmahia/hela) | Chama financial management with M-Pesa integration | [helaismoney.streamlit.app](https://helaismoney.streamlit.app) |
+| [EasyStockTrader](https://github.com/gabrielmahia/quantum-maestro) | NSE + global macro risk analysis terminal | [easystocktrader.streamlit.app](https://easystocktrader.streamlit.app) |
+
+### ⛪ Community
+| Tool | What it does | App |
+|------|-------------|-----|
+| [Jumuia](https://github.com/gabrielmahia/catholic-network-tools) | Catholic parish community tools — giving, liturgy, pastoral care | [jumuia.streamlit.app](https://jumuia.streamlit.app) |
+| [Dagoretti Hub](https://github.com/gabrielmahia/dagoretti-community-hub) | Alumni and community platform | [dagoretti-high-school-community-app.streamlit.app](https://dagoretti-high-school-community-app.streamlit.app) |
+
+---
+
+## Developer infrastructure
+
+### [mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp) — M-Pesa + Africa's Talking MCP server
+Give AI agents the ability to trigger M-Pesa payments, send SMS, and top up airtime.
+
+```bash
+pip install mpesa-mcp
+uvx mpesa-mcp
 ```
 
+[![PyPI](https://img.shields.io/pypi/v/mpesa-mcp)](https://pypi.org/project/mpesa-mcp/)
+[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-listed-orange)](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.gabrielmahia)
+[![mpesa-mcp MCP server](https://glama.ai/mcp/servers/gabrielmahia/mpesa-mcp/badges/card.svg)](https://glama.ai/mcp/servers/gabrielmahia/mpesa-mcp)
+
+Also on PyPI: [`daraja-v3`](https://pypi.org/project/daraja-v3/) · [`kenya-sms`](https://pypi.org/project/kenya-sms/) · [`daraja-mock`](https://pypi.org/project/daraja-mock/) · [`pesa-cli`](https://pypi.org/project/pesa-cli/)
+
+### [nairobi-stack](https://github.com/gabrielmahia/nairobi-stack) — East African developer guide
+M-Pesa, USSD, Africa's Talking, NHIF/NSSF APIs — documented for builders.
+
 ---
 
-## What I want to hear about
+## Working with these tools?
 
-- You work for an NGO, county government, or religious institution in East Africa and one of these tools is close to what you need but not quite
-- You're building on M-Pesa or Africa's Talking and hit something the docs don't cover
-- You work in humanitarian tech and want to talk about what decision infrastructure for low-resource environments actually looks like
+If you're an NGO, county government, parish, cooperative, or researcher and one of these tools is close to what you need — [I want to hear from you](mailto:contact@aikungfu.dev).
 
-contact@aikungfu.dev · [aikungfu.dev](https://aikungfu.dev) · [full portfolio](https://gabrielmahia.github.io)
+Not a sales pitch. A real conversation about whether the tool fits your context, what's missing, and whether it's worth adapting.
+
+**License:** All tools are [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) — free to use, attribution required, no commercial use, no derivatives without permission.
 
 ---
 
-<sub>CC BY-NC-ND 4.0 (apps) · MIT (libraries) · 307 tests · 13/13 apps with live data · Kiswahili at every civic access point</sub>
+<div align="center">
+<sub>
+Kenya · East Africa · Diaspora · Civic tech · Decision infrastructure<br>
+<a href="https://aikungfu.dev">aikungfu.dev</a> · 
+<a href="https://gabrielmahia.github.io">All tools</a> · 
+<a href="mailto:contact@aikungfu.dev">contact@aikungfu.dev</a>
+</sub>
+</div>
