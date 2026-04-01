@@ -1,98 +1,63 @@
-<div align="center">
-
 # Gabriel Mahia
 
-**Mhandisi anayejenga miundombinu ya maamuzi kwa Afrika Mashariki.**  
-*Engineer building decision infrastructure for East Africa.*
+**Building decision infrastructure for under-resourced systems in East Africa.**
 
-[![Blog](https://img.shields.io/badge/Blog-aikungfu.dev-00304E?style=flat-square)](https://aikungfu.dev)
-[![Portfolio](https://img.shields.io/badge/Portfolio-All%20Tools-brightgreen?style=flat-square)](https://gabrielmahia.github.io)
-[![Email](https://img.shields.io/badge/Email-contact%40aikungfu.dev-blue?style=flat-square)](mailto:contact@aikungfu.dev)
-[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-mpesa--mcp-orange?style=flat-square)](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.gabrielmahia)
-
-</div>
+Kenyan diaspora engineer. Civic tech, fintech, and developer tools for the East African stack.
 
 ---
 
-## The problem I'm working on
+## Developer packages
 
-Data that should reach Kenyan farmers, diaspora families, county officers, and parish communities — doesn't.  
-Not because the data doesn't exist. It does. It's public. It's free.  
-The problem is **opacity**: information published in formats no one can use.
+| Package | Platform | What it does |
+|---------|----------|--------------|
+| [mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp) | PyPI · MCP Registry | MCP server for M-Pesa + Africa's Talking |
 
-I build tools that close that gap.
-
----
-
-## 13 deployed tools — live data, free, no login
-
-### 🌾 Agriculture & Climate
-| Tool | What it does | App |
-|------|-------------|-----|
-| [WapiMaji](https://github.com/gabrielmahia/openresilience) | Water stress + drought monitoring, SMS alerts for 47 counties | [wapimaji.streamlit.app](https://wapimaji.streamlit.app) |
-| [JuaMazao](https://github.com/gabrielmahia/mazao-intel) | WFP live crop prices, 226 markets, rainfall signals | [juamazao.streamlit.app](https://juamazao.streamlit.app) |
-| [FloodWatch Kenya](https://github.com/gabrielmahia/floodwatch-kenya) | Flood incident tracking and policy gap analysis | [floodwatch-kenya.streamlit.app](https://floodwatch-kenya.streamlit.app) |
-| [Hifadhi](https://github.com/gabrielmahia/landwatch) | Land encroachment and river watch | [hifadhi.streamlit.app](https://hifadhi.streamlit.app) |
-
-### 🏛️ Civic & Accountability
-| Tool | What it does | App |
-|------|-------------|-----|
-| [Macho ya Wananchi](https://github.com/gabrielmahia/civic-decoder) | MP attendance, CDF tracking, bill status — Parliament of Kenya | [macho-ya-wananchi.streamlit.app](https://macho-ya-wananchi.streamlit.app) |
-| [Hesabu](https://github.com/gabrielmahia/budget-sentinel) | County budget execution — 46 counties, COB data | [hesabu.streamlit.app](https://hesabu.streamlit.app) |
-| [Jibu](https://github.com/gabrielmahia/jibu) | AI civic rights assistant — Kenya Constitution 2010, EN/SW | [jibuyangu.streamlit.app](https://jibuyangu.streamlit.app) |
-| [ChaguaSACCO](https://github.com/gabrielmahia/sacco-scout) | SACCO comparison and discovery | [chaguasacco.streamlit.app](https://chaguasacco.streamlit.app) |
-
-### 💰 Finance & Diaspora
-| Tool | What it does | App |
-|------|-------------|-----|
-| [TumaPesa](https://github.com/gabrielmahia/remit-lens) | True cost of sending money to Kenya — 7 providers, hidden FX fees exposed | [tumapesa.streamlit.app](https://tumapesa.streamlit.app) |
-| [Hela](https://github.com/gabrielmahia/hela) | Chama financial management with M-Pesa integration | [helaismoney.streamlit.app](https://helaismoney.streamlit.app) |
-| [EasyStockTrader](https://github.com/gabrielmahia/quantum-maestro) | NSE + global macro risk analysis terminal | [easystocktrader.streamlit.app](https://easystocktrader.streamlit.app) |
-
-### ⛪ Community
-| Tool | What it does | App |
-|------|-------------|-----|
-| [Jumuia](https://github.com/gabrielmahia/jumuia) | Catholic parish community tools — giving, liturgy, pastoral care | [jumuia.streamlit.app](https://jumuia.streamlit.app) |
-| [Dagoretti Hub](https://github.com/gabrielmahia/dagoretti-community-hub) | Alumni and community platform | [dagoretti-high-school-community-app.streamlit.app](https://dagoretti-high-school-community-app.streamlit.app) |
+`pip install mpesa-mcp`
 
 ---
 
-## Developer infrastructure
+## Civic tools — 13 free apps on Kenya's public data
 
-### [mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp) — M-Pesa + Africa's Talking MCP server
-Give AI agents the ability to trigger M-Pesa payments, send SMS, and top up airtime.
+| Tool | Data | Live |
+|------|------|------|
+| Macho ya Wananchi | Parliament of Kenya, Mzalendo | [→](https://macho-ya-wananchi.streamlit.app) |
+| Hesabu | Controller of Budget | [→](https://hesabu.streamlit.app) |
+| JuaMazao | WFP / HDX — 226 markets | [→](https://juamazao.streamlit.app) |
+| WapiMaji | NDMA drought data | [→](https://wapimaji.streamlit.app) |
+| Jibu | Kenya Constitution 2010 | [→](https://jibuyangu.streamlit.app) |
+| ChaguaSACCO | SASRA registry | [→](https://chaguasacco.streamlit.app) |
+| TumaPesa | Live FX rates | [→](https://tumapesa.streamlit.app) |
+| Hela | Chama financial tools | [→](https://helaismoney.streamlit.app) |
+| Hifadhi | Land / OSM data | [→](https://hifadhi.streamlit.app) |
+| Jumuia | Catholic parish tools | [→](https://jumuia.streamlit.app) |
+| FloodWatch Kenya | NDOC flood data | [→](https://floodwatch-kenya.streamlit.app) |
+| EasyStockTrader | NSE / yfinance | [→](https://easystocktrader.streamlit.app) |
+| Dagoretti Hub | Alumni community | [→](https://dagoretti-high-school-community-app.streamlit.app) |
 
-```bash
-pip install mpesa-mcp
-uvx mpesa-mcp
-```
-
-[![PyPI](https://img.shields.io/pypi/v/mpesa-mcp)](https://pypi.org/project/mpesa-mcp/)
-[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-listed-orange)](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.gabrielmahia)
-[![mpesa-mcp MCP server](https://glama.ai/mcp/servers/gabrielmahia/mpesa-mcp/badges/card.svg)](https://glama.ai/mcp/servers/gabrielmahia/mpesa-mcp)
-
-Also on PyPI: [`daraja-v3`](https://pypi.org/project/daraja-v3/) · [`kenya-sms`](https://pypi.org/project/kenya-sms/) · [`daraja-mock`](https://pypi.org/project/daraja-mock/) · [`pesa-cli`](https://pypi.org/project/pesa-cli/)
-
-### [nairobi-stack](https://github.com/gabrielmahia/nairobi-stack) — East African developer guide
-M-Pesa, USSD, Africa's Talking, NHIF/NSSF APIs — documented for builders.
-
----
-
-## Working with these tools?
-
-If you're an NGO, county government, parish, cooperative, or researcher and one of these tools is close to what you need — [I want to hear from you](mailto:contact@aikungfu.dev).
-
-Not a sales pitch. A real conversation about whether the tool fits your context, what's missing, and whether it's worth adapting.
-
-**License:** All tools are [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) — free to use, attribution required, no commercial use, no derivatives without permission.
+All open source (Apache 2.0 or CC BY-NC-ND-4.0). All work on 3G. No login required.
 
 ---
 
-<div align="center">
-<sub>
-Kenya · East Africa · Diaspora · Civic tech · Decision infrastructure<br>
-<a href="https://aikungfu.dev">aikungfu.dev</a> · 
-<a href="https://gabrielmahia.github.io">All tools</a> · 
-<a href="mailto:contact@aikungfu.dev">contact@aikungfu.dev</a>
-</sub>
-</div>
+## Open source contributions
+
+Contributing to global civic/development infrastructure that intersects with this work:
+
+- [Mojaloop / Gates Foundation](https://github.com/mojaloop/documentation/issues/553) — MCP + payment rails integration guide
+- [OCHA / HDX](https://github.com/OCHA-DAP/data-grid-recipes/issues/194) — Kenya food security data recipe  
+- [Andrew Ng / context-hub](https://github.com/andrewyng/context-hub/pull/52) — Africa's Talking + M-Pesa API docs (PR pending)
+- [mySociety](https://github.com/mysociety/theyworkforyou/issues/1998) — Kenya parliamentary data
+- [Code for Africa](https://github.com/CodeForAfrica/openAFRICA/issues/55) — Kenya civic tools
+- [Open Knowledge Foundation](https://github.com/okfn/dataportals.org/issues/407) — Kenya open data portals
+- [Open Contracting](https://github.com/open-contracting/standard/issues/1745) — Kenya procurement transparency
+- [Ushahidi](https://github.com/ushahidi/platform/issues/5048) — Kenya crisis mapping integration
+- [Africa's Talking SDK](https://github.com/AfricasTalkingLtd/africastalking-python/issues/72) — community project note
+
+---
+
+## Engineering guide
+
+[nairobi-stack](https://github.com/gabrielmahia/nairobi-stack) — Developer guide for the East African stack: M-Pesa, Africa's Talking, USSD, MCP, Streamlit deployment.
+
+---
+
+📍 Kenyan diaspora · contact@aikungfu.dev · [aikungfu.dev](https://aikungfu.dev)
