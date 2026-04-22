@@ -48,7 +48,7 @@ All open source (Apache 2.0 or CC BY-NC-ND-4.0). All work on 3G. No login requir
 | PyPI mpesa-mcp | Versions | 7 (v0.1.0 → v0.1.6) |
 | Hugging Face | Kenya civic data downloads | 40+ |
 | Kaggle | Kenya civic data usability | 8.82/10 |
-| GitHub | Active repos | 31 |
+| GitHub | Active repos | 34 |
 | GitHub | External org contributions | 12+ orgs |
 
 *Stats are organic — zero paid promotion.*
@@ -87,4 +87,7 @@ Contributing to global civic/development infrastructure that intersects with thi
 | [civic-agent-kit](https://github.com/gabrielmahia/civic-agent-kit) | SDK | Unified East African civic AI SDK |
 | [kenya-rag](https://github.com/gabrielmahia/kenya-rag) | RAG | LlamaIndex over Kenya civic datasets |
 | [hesabu-agent](https://github.com/gabrielmahia/hesabu-agent) | AI Agent | CrewAI budget x OCDS analysis |
+| [kenya-adk](https://github.com/gabrielmahia/kenya-adk) | Google ADK | First Google ADK implementation for East Africa |
+| [taarifa-ai](https://github.com/gabrielmahia/taarifa-ai) | Journalism AI | Civic briefing tool for journalists and civil society |
+| [remit-ai](https://github.com/gabrielmahia/remit-ai) | Diaspora FinTech | Smart remittance advisor — FX + M-Pesa + conversational AI |
 | [wapimaji-mcp](https://github.com/gabrielmahia/wapimaji-mcp) | MCP Server | Kenya drought intelligence |
