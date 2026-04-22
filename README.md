@@ -43,15 +43,13 @@ All open source (Apache 2.0 or CC BY-NC-ND-4.0). All work on 3G. No login requir
 
 | Platform | Metric | Value |
 |----------|--------|-------|
-| PyPI mpesa-mcp | All-time downloads | 3,042 |
-| PyPI mpesa-mcp | Last 30 days | 763 |
-| PyPI mpesa-mcp | Last 7 days | 26 |
+| PyPI mpesa-mcp | All-time downloads | 3,240+ |
+| PyPI mpesa-mcp | Last 30 days | 608 |
 | PyPI mpesa-mcp | Versions | 7 (v0.1.0 → v0.1.6) |
-| Hugging Face | Kenya civic data downloads | 37 |
+| Hugging Face | Kenya civic data downloads | 40+ |
 | Kaggle | Kenya civic data usability | 8.82/10 |
-| Zenodo | Kenya civic data | In review |
-| GitHub | Active repos | 27 |
-| GitHub | External org contributions | 10 orgs |
+| GitHub | Active repos | 31 |
+| GitHub | External org contributions | 12+ orgs |
 
 *Stats are organic — zero paid promotion.*
 ## Open source contributions
@@ -77,3 +75,16 @@ Contributing to global civic/development infrastructure that intersects with thi
 ---
 
 📍 Kenyan diaspora · contact@aikungfu.dev · [aikungfu.dev](https://aikungfu.dev)
+
+## New repos — April 2026
+
+| Repo | Type | Description |
+|------|------|-------------|
+| [daraja-ai](https://github.com/gabrielmahia/daraja-ai) | FinTech AI | M-Pesa fraud signals + MCP server |
+| [shule-ai](https://github.com/gabrielmahia/shule-ai) | EdTech | KCPE/KCSE AI tutor · bilingual EN/SW · Gemini |
+| [kazi-ai](https://github.com/gabrielmahia/kazi-ai) | HR RegTech | NSSF/NHIF/PAYE calculator · Employment Act |
+| [kenya-a2a](https://github.com/gabrielmahia/kenya-a2a) | A2A Agent | First East African A2A agent (Linux Foundation) |
+| [civic-agent-kit](https://github.com/gabrielmahia/civic-agent-kit) | SDK | Unified East African civic AI SDK |
+| [kenya-rag](https://github.com/gabrielmahia/kenya-rag) | RAG | LlamaIndex over Kenya civic datasets |
+| [hesabu-agent](https://github.com/gabrielmahia/hesabu-agent) | AI Agent | CrewAI budget x OCDS analysis |
+| [wapimaji-mcp](https://github.com/gabrielmahia/wapimaji-mcp) | MCP Server | Kenya drought intelligence |
