@@ -43,13 +43,13 @@ All open source (Apache 2.0 or CC BY-NC-ND-4.0). All work on 3G. No login requir
 
 | Platform | Metric | Value |
 |----------|--------|-------|
-| PyPI mpesa-mcp | All-time downloads | 3,240+ |
+| PyPI mpesa-mcp | All-time downloads | 3,730+ |
 | PyPI mpesa-mcp | Last 30 days | 608 |
 | PyPI mpesa-mcp | Versions | 7 (v0.1.0 → v0.1.6) |
 | Hugging Face | Kenya civic data downloads | 40+ |
 | Kaggle | Kenya civic data usability | 8.82/10 |
 | GitHub | Active repos | 34 |
-| GitHub | External org contributions | 12+ orgs |
+| GitHub | External org contributions | 13+ orgs |
 
 *Stats are organic — zero paid promotion.*
 ## Open source contributions
