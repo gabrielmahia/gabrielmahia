@@ -10,9 +10,9 @@
 
 | Platform | Metric | Value |
 |----------|--------|-------|
-| PyPI mpesa-mcp | All-time downloads | 3,776+ |
+| PyPI mpesa-mcp | All-time downloads | 3,800+ |
 | PyPI mpesa-mcp | Last 30 days | 614 |
-| PyPI mpesa-mcp | Version | v0.1.8 · MIT |
+| PyPI mpesa-mcp | Version | v0.1.8 · MIT ✅ |
 | Hugging Face | Kenya civic data downloads | 45+ |
 | Kaggle | Kenya civic data usability | 8.82/10 |
 | GitHub | Active repos | 34 |
