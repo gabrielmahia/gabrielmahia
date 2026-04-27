@@ -11,12 +11,15 @@
 | Platform | Metric | Value |
 |----------|--------|-------|
 | PyPI mpesa-mcp | All-time downloads | 3,800+ |
+| PyPI wapimaji-mcp | Version | v0.1.0 · MIT · NEW |
+| PyPI civic-agent-kit | Version | v0.1.0 · MIT · NEW |
 | PyPI mpesa-mcp | Last 30 days | 614 |
 | PyPI mpesa-mcp | Version | v0.1.8 · MIT ✅ |
 | Hugging Face | Kenya civic data downloads | 45+ |
 | Kaggle | Kenya civic data usability | 8.82/10 |
 | GitHub | Active repos | 34 |
 | GitHub | External org contributions | 13+ orgs |
+| PyPI packages | Total published | 3 (mpesa-mcp, wapimaji-mcp, civic-agent-kit) |
 | Smithery.ai | MCP server listings | 2 submitted |
 | Glama | mpesa-mcp build | ✅ Verified — all 5 tools detected |
 
