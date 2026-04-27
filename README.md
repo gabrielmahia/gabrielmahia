@@ -18,6 +18,7 @@
 | GitHub | Active repos | 34 |
 | GitHub | External org contributions | 13+ orgs |
 | Smithery.ai | MCP server listings | 2 submitted |
+| Glama | mpesa-mcp build | ✅ Verified — all 5 tools detected |
 
 *Stats are organic — zero paid promotion.*
 
