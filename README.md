@@ -17,7 +17,7 @@
 | PyPI mpesa-mcp | Version | v0.1.8 · MIT ✅ |
 | Hugging Face | Kenya civic data downloads | 45+ |
 | Kaggle | Kenya civic data usability | 8.82/10 |
-| GitHub | Active repos | 34 |
+| GitHub | Active repos | 37 |
 | GitHub | External org contributions | 13+ orgs |
 | PyPI packages | Total published | 3 (mpesa-mcp, wapimaji-mcp, civic-agent-kit) |
 | Smithery.ai | MCP server listings | 2 submitted |
@@ -34,7 +34,10 @@ The first East African implementation of all three major AI agent protocols:
 | Protocol | Repo | Description |
 |----------|------|-------------|
 | **MCP** | [mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp) | M-Pesa + Africa's Talking · 3,776+ downloads · MIT |
-| **MCP** | [wapimaji-mcp](https://github.com/gabrielmahia/wapimaji-mcp) | Kenya drought intelligence · MIT |
+| **MCP** | [kenya-health-mcp](https://github.com/gabrielmahia/kenya-health-mcp) | MCP Server | MIT | Kenya health — NHIF, facilities, maternal, rights |
+| [afya-ai](https://github.com/gabrielmahia/afya-ai) | Health AI | CC BY-NC-ND | NHIF calculator, hospitals, maternal health EN/SW |
+| [diaspora-ai](https://github.com/gabrielmahia/diaspora-ai) | Diaspora | CC BY-NC-ND | US-Kenya dual-life — remittances, investment, citizenship |
+| [wapimaji-mcp](https://github.com/gabrielmahia/wapimaji-mcp) | Kenya drought intelligence · MIT |
 | **A2A** | [kenya-a2a](https://github.com/gabrielmahia/kenya-a2a) | First African A2A agent · MIT |
 | **ADK** | [kenya-adk](https://github.com/gabrielmahia/kenya-adk) | First African Google ADK · MIT |
 | **SDK** | [civic-agent-kit](https://github.com/gabrielmahia/civic-agent-kit) | Unified East African civic AI SDK · MIT |
@@ -72,6 +75,9 @@ The first East African implementation of all three major AI agent protocols:
 | [civic-agent-kit](https://github.com/gabrielmahia/civic-agent-kit) | SDK | MIT | Unified East African civic AI SDK |
 | [kenya-rag](https://github.com/gabrielmahia/kenya-rag) | RAG | MIT | LlamaIndex over Kenya civic data |
 | [hesabu-agent](https://github.com/gabrielmahia/hesabu-agent) | AI Agent | MIT | CrewAI budget × OCDS analysis |
+| [kenya-health-mcp](https://github.com/gabrielmahia/kenya-health-mcp) | MCP Server | MIT | Kenya health — NHIF, facilities, maternal, rights |
+| [afya-ai](https://github.com/gabrielmahia/afya-ai) | Health AI | CC BY-NC-ND | NHIF calculator, hospitals, maternal health EN/SW |
+| [diaspora-ai](https://github.com/gabrielmahia/diaspora-ai) | Diaspora | CC BY-NC-ND | US-Kenya dual-life — remittances, investment, citizenship |
 | [wapimaji-mcp](https://github.com/gabrielmahia/wapimaji-mcp) | MCP Server | MIT | Kenya drought intelligence |
 
 ---
