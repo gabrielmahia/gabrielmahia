@@ -10,7 +10,7 @@
 
 | Platform | Metric | Value |
 |----------|--------|-------|
-| PyPI mpesa-mcp | All-time downloads | 4,000+ |
+| PyPI mpesa-mcp | All-time downloads | 4,200+ |
 | PyPI wapimaji-mcp | Version | v0.1.1 · MIT |
 | PyPI civic-agent-kit | Version | v0.1.0 · MIT · NEW |
 | PyPI mpesa-mcp | Last 30 days | 614 |
