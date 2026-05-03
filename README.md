@@ -1,95 +1,91 @@
 # Gabriel Mahia
 
-**Decision infrastructure for East Africa** — 24 deployed tools, 2 published MCP servers, 1 A2A agent, 1 Google ADK implementation. All open-source, all free.
+**Systems Engineer · AI Architect · US Army Veteran**
 
-🌍 [gabrielmahia.github.io](https://gabrielmahia.github.io) · 📦 [PyPI](https://pypi.org/user/gabrielmahia/) · ✉️ contact@aikungfu.dev
+Building decision infrastructure for East Africa — the first engineer to implement all three major AI agent protocols (MCP, A2A, Google ADK) for the region. 37 public repos. 4,200+ PyPI downloads. Zero paid promotion.
 
----
+📍 Baltimore, MD · 🌍 Kenya/US · ✉️ contact@aikungfu.dev
 
-## Live stats — April 2026
-
-| Platform | Metric | Value |
-|----------|--------|-------|
-| PyPI mpesa-mcp | All-time downloads | 4,200+ |
-| PyPI wapimaji-mcp | Version | v0.1.1 · MIT |
-| PyPI civic-agent-kit | Version | v0.1.0 · MIT · NEW |
-| PyPI mpesa-mcp | Last 30 days | 614 |
-| PyPI mpesa-mcp | Version | v0.1.8 · MIT ✅ |
-| Hugging Face | Kenya civic data downloads | 45+ |
-| Kaggle | Kenya civic data usability | 8.82/10 |
-| GitHub | Active repos | 37 |
-| GitHub | External org contributions | 13+ orgs |
-| PyPI packages | Total published | 3 (mpesa-mcp, wapimaji-mcp, civic-agent-kit) |
-| Smithery.ai | MCP server listings | 2 submitted |
-| Glama | mpesa-mcp build | ✅ Verified — all 5 tools detected |
-
-*Stats are organic — zero paid promotion.*
+[![Portfolio](https://img.shields.io/badge/Portfolio-gabrielmahia.github.io-00A86B?style=flat-square)](https://gabrielmahia.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-gabrielmahia-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/gabrielmahia/)
+[![PyPI](https://img.shields.io/badge/PyPI-4%2C200%2B%20downloads-yellow?style=flat-square&logo=pypi)](https://pypi.org/user/gabrielmahia/)
 
 ---
 
-## AI Protocol Stack
+## What I build
 
-The first East African implementation of all three major AI agent protocols:
+AI systems that reduce information asymmetry for East African communities and their global diaspora. Everything is open-source, bilingual (EN/SW) where it matters, and built for real infrastructure constraints.
+
+---
+
+## AI Protocol Stack — First in East Africa
 
 | Protocol | Repo | Description |
 |----------|------|-------------|
-| **MCP** | [mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp) | M-Pesa + Africa's Talking · 3,776+ downloads · MIT |
-| **MCP** | [kenya-health-mcp](https://github.com/gabrielmahia/kenya-health-mcp) | MCP Server | MIT | Kenya health — NHIF, facilities, maternal, rights |
-| [afya-ai](https://github.com/gabrielmahia/afya-ai) | Health AI | CC BY-NC-ND | NHIF calculator, hospitals, maternal health EN/SW |
-| [diaspora-ai](https://github.com/gabrielmahia/diaspora-ai) | Diaspora | CC BY-NC-ND | US-Kenya dual-life — remittances, investment, citizenship |
-| [wapimaji-mcp](https://github.com/gabrielmahia/wapimaji-mcp) | Kenya drought intelligence · MIT |
-| **A2A** | [kenya-a2a](https://github.com/gabrielmahia/kenya-a2a) | First African A2A agent · MIT |
-| **ADK** | [kenya-adk](https://github.com/gabrielmahia/kenya-adk) | First African Google ADK · MIT |
+| **MCP** | [mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp) | M-Pesa + Africa's Talking · **4,200+ downloads** · Glama verified |
+| **MCP** | [wapimaji-mcp](https://github.com/gabrielmahia/wapimaji-mcp) | Kenya drought intelligence · MIT |
+| **MCP** | [kenya-health-mcp](https://github.com/gabrielmahia/kenya-health-mcp) | NHIF, facilities, maternal health, rights EN/SW |
+| **A2A** | [kenya-a2a](https://github.com/gabrielmahia/kenya-a2a) | **First African A2A agent** · MIT |
+| **ADK** | [kenya-adk](https://github.com/gabrielmahia/kenya-adk) | **First African Google ADK** · MIT |
 | **SDK** | [civic-agent-kit](https://github.com/gabrielmahia/civic-agent-kit) | Unified East African civic AI SDK · MIT |
-| **RAG** | [kenya-rag](https://github.com/gabrielmahia/kenya-rag) | LlamaIndex over Kenya civic data · MIT |
 
 ---
 
-## Deployed Tools (24)
+## Live Stats — May 2026
 
-### 🏛️ Civic & Accountability
-[WapiMaji](https://wapimaji.streamlit.app) · [FloodWatch](https://floodwatch-kenya.streamlit.app) · [Macho ya Wananchi](https://macho-ya-wananchi.streamlit.app) · [Hesabu](https://hesabu.streamlit.app) · [Jibu](https://jibuyangu.streamlit.app) · [Hifadhi](https://hifadhi.streamlit.app) · [JuaMazao](https://juamazao.streamlit.app) · [TaarifaAI](https://taarifaai.streamlit.app)
+| Metric | Value |
+|--------|-------|
+| PyPI total downloads | **4,200+** |
+| PyPI packages published | **4** |
+| Active public repos | **37** |
+| Deployed tools | **29** |
+| Open-source org contributions | **13+** (Google ADK, LlamaIndex, CrewAI, CodeForAfrica, A2A Project...) |
+| HuggingFace dataset downloads | **66+** |
+| Glama MCP registry | ✅ Verified (mpesa-mcp + wapimaji-mcp) |
 
-### 💰 Finance & Diaspora
-[ChaguaSACCO](https://chaguasacco.streamlit.app) · [TumaPesa](https://tumapesa.streamlit.app) · [HelaIsMoney](https://helaismoney.streamlit.app) · [EasyStockTrader](https://easystocktrader.streamlit.app) · [DarajaAI](https://darajaniai.streamlit.app) · [RemitAI](https://remit-ai.streamlit.app)
-
-### 📚 EdTech & HR
-[ShuleAI](https://shuleniai.streamlit.app) · [KaziAI](https://kaziniai.streamlit.app)
-
-### ⛪ Community
-[Jumuia](https://jumuia.streamlit.app) · [Dagoretti Hub](https://dagoretti-high-school-community-app.streamlit.app)
-
----
-
-## New repos — April 2026
-
-| Repo | Type | License | Description |
-|------|------|---------|-------------|
-| [kenya-adk](https://github.com/gabrielmahia/kenya-adk) | Google ADK | MIT | First Google ADK for East Africa |
-| [taarifa-ai](https://github.com/gabrielmahia/taarifa-ai) | Journalism AI | CC BY-NC-ND | Civic briefing tool for journalists |
-| [remit-ai](https://github.com/gabrielmahia/remit-ai) | Diaspora FinTech | CC BY-NC-ND | Smart remittance advisor |
-| [daraja-ai](https://github.com/gabrielmahia/daraja-ai) | FinTech AI | CC BY-NC-ND | M-Pesa fraud signals + MCP server |
-| [shule-ai](https://github.com/gabrielmahia/shule-ai) | EdTech | CC BY-NC-ND | KCPE/KCSE AI tutor · EN/SW |
-| [kazi-ai](https://github.com/gabrielmahia/kazi-ai) | HR RegTech | CC BY-NC-ND | NSSF/NHIF/PAYE calculator |
-| [kenya-a2a](https://github.com/gabrielmahia/kenya-a2a) | A2A Agent | MIT | First African A2A agent |
-| [civic-agent-kit](https://github.com/gabrielmahia/civic-agent-kit) | SDK | MIT | Unified East African civic AI SDK |
-| [kenya-rag](https://github.com/gabrielmahia/kenya-rag) | RAG | MIT | LlamaIndex over Kenya civic data |
-| [hesabu-agent](https://github.com/gabrielmahia/hesabu-agent) | AI Agent | MIT | CrewAI budget × OCDS analysis |
-| [kenya-health-mcp](https://github.com/gabrielmahia/kenya-health-mcp) | MCP Server | MIT | Kenya health — NHIF, facilities, maternal, rights |
-| [afya-ai](https://github.com/gabrielmahia/afya-ai) | Health AI | CC BY-NC-ND | NHIF calculator, hospitals, maternal health EN/SW |
-| [diaspora-ai](https://github.com/gabrielmahia/diaspora-ai) | Diaspora | CC BY-NC-ND | US-Kenya dual-life — remittances, investment, citizenship |
-| [wapimaji-mcp](https://github.com/gabrielmahia/wapimaji-mcp) | MCP Server | MIT | Kenya drought intelligence |
+*All organic. No paid promotion.*
 
 ---
 
-## License philosophy
+## Technical Skills
 
-**MIT** — MCP servers, SDKs, agents, RAG, and developer tools. Infrastructure should be universally usable.
-
-**CC BY-NC-ND 4.0** — End-user Streamlit apps. These are products, not infrastructure.
-
-**CC BY 4.0** — Published datasets (Kaggle, HuggingFace, Zenodo).
+```
+Languages:      Python · PowerShell · JavaScript · SQL · Bash
+AI/ML:          MCP · A2A · Google ADK · LlamaIndex · CrewAI · Gemini REST
+Infrastructure: GitHub Actions · Docker · PyPI · Streamlit Cloud · WSL
+Payments/APIs:  Safaricom Daraja (M-Pesa) · Africa's Talking · REST design
+Data:           HuggingFace · World Bank API · Kenya open data · pandas/numpy
+Domain:         East African civic systems · Diaspora finance · Health informatics
+```
 
 ---
 
-*Building decision infrastructure for under-resourced systems.*
+## Deployed Tools (29)
+
+**Civic & Accountability** · [WapiMaji](https://wapimaji.streamlit.app) · [FloodWatch](https://floodwatch-kenya.streamlit.app) · [TaarifaAI](https://taarifaai.streamlit.app) · [Macho ya Wananchi](https://macho-ya-wananchi.streamlit.app) · [Hesabu](https://hesabu.streamlit.app)
+
+**Health & Diaspora** · [AfyaAI](https://afyaai.streamlit.app) · [DiasporaAI](https://diasporaai.streamlit.app)
+
+**Finance** · [EasyStockTrader](https://easystocktrader.streamlit.app) · [DarajaAI](https://darajaniai.streamlit.app) · [RemitAI](https://remitai.streamlit.app)
+
+**Education & HR** · [ShuleAI](https://shuleniai.streamlit.app) · [KaziAI](https://kaziniai.streamlit.app)
+
+Full list → [gabrielmahia.github.io](https://gabrielmahia.github.io)
+
+---
+
+## Background
+
+US Army veteran (Combat Engineer / Sapper). Kenyan-born US citizen. Twelve months embedded in Nairobi (April 2025–2026) during Kenya's Gen Z governance crisis — built most of this portfolio during that year. Writing on power, institutions, and technology at [gabrielmahia.com](https://www.gabrielmahia.com).
+
+**Available for:** AI engineering roles · Data infrastructure · Systems analysis · East Africa-facing technical work · Consulting
+
+📬 contact@aikungfu.dev · [About + Resume](https://gabrielmahia.github.io/about.html)
+
+---
+
+## License
+
+**MIT** — MCP servers, SDKs, agents, RAG, developer infrastructure  
+**CC BY-NC-ND 4.0** — End-user Streamlit apps  
+**CC BY 4.0** — Published datasets
