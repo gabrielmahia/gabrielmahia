@@ -1,6 +1,7 @@
 # Gabriel Mahia
 
-**Systems & Infrastructure Strategist · Swahili–English · Washington DC–Baltimore**
+**Operations Analyst · Systems Strategist · Swahili–English**
+**U.S. Federal Service | East African Policy & Finance Ecosystem | Applied AI**
 
 Operations administrator, Swahili linguist, and AI architect. I work at the fracture point between U.S. federal infrastructure and East African operational environments. First to implement all three major AI agent protocols — MCP, A2A, Google ADK — for East Africa.
 
@@ -75,7 +76,7 @@ Full portfolio → [gabrielmahia.github.io](https://gabrielmahia.github.io)
 
 ## Background
 
-U.S. Army veteran (CBRN). Kenyan-born U.S. citizen. Operations administrator for critical national infrastructure. Swahili-English linguist, DLPT-certified. MBA, University of Nairobi. BSc IT, JKUAT. Twelve months in Nairobi (2025–2026) building this portfolio during Kenya's governance realignment.
+Kenyan-born U.S. citizen. Army veteran. Operations administrator. Swahili–English linguist (DLPT-certified). MBA, University of Nairobi. BSc IT, JKUAT. Twelve months embedded in Nairobi (2025–2026) building this portfolio during Kenya's governance realignment — in the field, not from a desk.
 
 Writing on power, institutions, and technology → [gabrielmahia.com](https://www.gabrielmahia.com)
 
