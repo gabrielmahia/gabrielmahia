@@ -78,9 +78,7 @@ Full list → [gabrielmahia.github.io](https://gabrielmahia.github.io)
 
 US Army veteran (Combat Engineer / Sapper). Kenyan-born US citizen. Twelve months embedded in Nairobi (April 2025–2026) during Kenya's Gen Z governance crisis — built most of this portfolio during that year. Writing on power, institutions, and technology at [gabrielmahia.com](https://www.gabrielmahia.com).
 
-**Available for:** AI engineering roles · Data infrastructure · Systems analysis · East Africa-facing technical work · Consulting
-
-📬 contact@aikungfu.dev · [About + Resume](https://gabrielmahia.github.io/about.html)
+📬 contact@aikungfu.dev · [About](https://gabrielmahia.github.io/about.html)
 
 ---
 
