@@ -66,7 +66,7 @@ Languages:      Swahili (Native) · English (Native) · French/Spanish/Somali/Ur
 
 **Health & Diaspora** · [AfyaAI](https://afyaai.streamlit.app) · [DiasporaAI](https://diasporaai.streamlit.app)
 
-**Finance** · [EasyStockTrader](https://easystocktrader.streamlit.app) · [DarajaAI](https://darajaniai.streamlit.app) · [RemitAI](https://remitai.streamlit.app)
+**Finance** · [EasyStockTrader](https://easystocktrader.streamlit.app) *(SPX Income Engine v2)* · [DarajaAI](https://darajaniai.streamlit.app) · [RemitAI](https://remitai.streamlit.app)
 
 **Education & HR** · [ShuleAI](https://shuleniai.streamlit.app) · [KaziAI](https://kaziniai.streamlit.app)
 
