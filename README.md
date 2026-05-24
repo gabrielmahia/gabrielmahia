@@ -27,7 +27,8 @@ AI systems that reduce information asymmetry for East African communities and th
 | **MCP** | [wapimaji-mcp](https://github.com/gabrielmahia/wapimaji-mcp) | Kenya drought intelligence · MIT |
 | **MCP** | [kenya-health-mcp](https://github.com/gabrielmahia/kenya-health-mcp) | NHIF, facility registry, maternal health, rights EN/SW |
 | **A2A** | [kenya-a2a](https://github.com/gabrielmahia/kenya-a2a) | **First African A2A agent** · MIT |
-| **ADK** | [kenya-adk](https://github.com/gabrielmahia/kenya-adk) | **First African Google ADK** · MIT |
+| **ADK** | [kenya-agui](https://github.com/gabrielmahia/kenya-agui) | AG-UI — agent-to-frontend |
+| [kenya-adk](https://github.com/gabrielmahia/kenya-adk) | **First African Google ADK** · MIT |
 | **SDK** | [civic-agent-kit](https://github.com/gabrielmahia/civic-agent-kit) | Unified East African civic AI SDK · MIT |
 
 ---
