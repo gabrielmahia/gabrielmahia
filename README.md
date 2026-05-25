@@ -13,6 +13,24 @@ Operations administrator, Swahili linguist, and AI architect. I work at the frac
 
 ---
 
+
+## 🌍 Live Applications (22+)
+
+| App | What it does | URL |
+|-----|-------------|-----|
+| **AfyaAI** | Kenya health — maternal, NHIF/SHA, symptoms | [afyaai.streamlit.app](https://afyaai.streamlit.app) |
+| **SaccoAI** | Chama & SACCO management, M-Pesa, table banking | [saccoai.streamlit.app](https://saccoai.streamlit.app) |
+| **SACCO Scout** | Find & compare Kenya's licensed SACCOs (SASRA data) | [chaguasacco.streamlit.app](https://chaguasacco.streamlit.app) |
+| **DarajaAI** | M-Pesa financial services dashboard | [daraja-ai.streamlit.app](https://daraja-ai.streamlit.app) |
+| **TaarifaAI** | East African investigative journalism toolkit | [taarifaai.streamlit.app](https://taarifaai.streamlit.app) |
+| **RemitAI** | Diaspora services — remittances, property, citizenship | [remit-ai.streamlit.app](https://remit-ai.streamlit.app) |
+| **ShuleAI** | Kenya CBC curriculum AI tutor | [shule-ai.streamlit.app](https://shule-ai.streamlit.app) |
+| **KaziAI** | Kenya job market intelligence | [kazi-ai.streamlit.app](https://kazi-ai.streamlit.app) |
+| **FloodWatch Kenya** | Real-time flood and disaster risk | [floodwatch-kenya.streamlit.app](https://floodwatch-kenya.streamlit.app) |
+| **OpenResilience** | Kenya water/drought community resilience | [wapimaji.streamlit.app](https://wapimaji.streamlit.app) |
+| **GospelMap** | Catholic parish mapping & community | [gospelmap-global.streamlit.app](https://gospelmap-global.streamlit.app) |
+| **Kenya AGUI Demo** | First East African AG-UI protocol demo | *deploying* |
+
 ## What I build
 
 AI systems that reduce information asymmetry for East African communities and the institutions that serve them. Everything is open-source, bilingual (EN/SW) where it matters, and built for real infrastructure constraints.
