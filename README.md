@@ -1,110 +1,77 @@
-# Gabriel Mahia
+# Gabriel Mahia | 🌍 East Africa Decision Infrastructure
 
-**Operations Analyst · Systems Strategist · Swahili–English**
-**U.S. Federal Service | East African Policy & Finance Ecosystem | Applied AI**
-
-Operations administrator, Swahili linguist, and AI architect. I work at the fracture point between U.S. federal infrastructure and East African operational environments. First to implement all three major AI agent protocols — MCP, A2A, Google ADK — for East Africa.
-
-📍 Washington DC–Baltimore · ✉️ contact@gabrielmahia.com
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-gabrielmahia.github.io-00A86B?style=flat-square)](https://gabrielmahia.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-gabrielmahia-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/gabrielmahia/)
-[![PyPI](https://img.shields.io/badge/PyPI-4%2C200%2B%20downloads-yellow?style=flat-square&logo=pypi)](https://pypi.org/user/gabrielmahia/)
+**Kenyan diaspora engineer building AI-powered civic tech, fintech, and developer infrastructure for East Africa.**
 
 ---
 
+## 🚀 Mission
 
-## 🌍 Live Applications (22+)
+> *First-mover on emerging AI protocols for the developing world. What Alexander did with territory, building with technology.*
 
-| App | What it does | URL |
-|-----|-------------|-----|
-| **AfyaAI** | Kenya health — maternal, NHIF/SHA, symptoms | [afyaai.streamlit.app](https://afyaai.streamlit.app) |
-| **SaccoAI** | Chama & SACCO management, M-Pesa, table banking | [saccoai.streamlit.app](https://saccoai.streamlit.app) |
-| **SACCO Scout** | Find & compare Kenya's licensed SACCOs (SASRA data) | [chaguasacco.streamlit.app](https://chaguasacco.streamlit.app) |
-| **DarajaAI** | M-Pesa financial services dashboard | [daraja-ai.streamlit.app](https://daraja-ai.streamlit.app) |
-| **TaarifaAI** | East African investigative journalism toolkit | [taarifaai.streamlit.app](https://taarifaai.streamlit.app) |
-| **RemitAI** | Diaspora services — remittances, property, citizenship | [remit-ai.streamlit.app](https://remit-ai.streamlit.app) |
-| **ShuleAI** | Kenya CBC curriculum AI tutor | [shule-ai.streamlit.app](https://shule-ai.streamlit.app) |
-| **KaziAI** | Kenya job market intelligence | [kazi-ai.streamlit.app](https://kazi-ai.streamlit.app) |
-| **FloodWatch Kenya** | Real-time flood and disaster risk | [floodwatch-kenya.streamlit.app](https://floodwatch-kenya.streamlit.app) |
-| **OpenResilience** | Kenya water/drought community resilience | [wapimaji.streamlit.app](https://wapimaji.streamlit.app) |
-| **GospelMap** | Catholic parish mapping & community | [gospelmap-global.streamlit.app](https://gospelmap-global.streamlit.app) |
-| **Kenya AGUI Demo** | First East African AG-UI protocol demo | *deploying* |
-
-## What I build
-
-AI systems that reduce information asymmetry for East African communities and the institutions that serve them. Everything is open-source, bilingual (EN/SW) where it matters, and built for real infrastructure constraints.
+Making 1st-world AI solutions accessible to 3rd-world communities — in Swahili, at zero cost, open-source.
 
 ---
 
-## AI Protocol Stack — First in East Africa
+## 🔌 AI Protocol Firsts for East Africa
 
-| Protocol | Repo | Description |
-|----------|------|-------------|
-| **MCP** | [mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp) | M-Pesa + Africa's Talking · **4,200+ downloads** · Glama verified |
-| **MCP** | [wapimaji-mcp](https://github.com/gabrielmahia/wapimaji-mcp) | Kenya drought intelligence · MIT |
-| **MCP** | [kenya-health-mcp](https://github.com/gabrielmahia/kenya-health-mcp) | NHIF, facility registry, maternal health, rights EN/SW |
-| **A2A** | [kenya-a2a](https://github.com/gabrielmahia/kenya-a2a) | **First African A2A agent** · MIT |
-| **ADK** | [kenya-agui](https://github.com/gabrielmahia/kenya-agui) | AG-UI — agent-to-frontend |
-| [kenya-adk](https://github.com/gabrielmahia/kenya-adk) | **First African Google ADK** · MIT |
-| **SDK** | [civic-agent-kit](https://github.com/gabrielmahia/civic-agent-kit) | Unified East African civic AI SDK · MIT |
+| Protocol | Implementation | Status |
+|----------|---------------|--------|
+| **MCP (Model Context Protocol)** | [mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp) — M-PESA as AI tools | 🟢 Live on PyPI |
+| **A2A (Agent-to-Agent)** | [kenya-a2a](https://github.com/gabrielmahia/kenya-a2a) | 🟢 Deployed |
+| **Google ADK** | [kenya-adk](https://github.com/gabrielmahia/kenya-adk) | 🟢 Deployed |
 
 ---
 
-## Portfolio Stats — May 2026
+## 🌍 Portfolio — 100+ Open Source Tools
 
-| Metric | Value |
-|--------|-------|
-| PyPI total downloads | **4,200+** |
-| PyPI packages | **4** |
-| Active public repos | **37** |
-| Deployed tools | **29** |
-| Open-source org contributions | **13+** (Google ADK, LlamaIndex, CrewAI, CodeForAfrica, A2A Project...) |
-| Glama MCP registry | ✅ Verified |
+### 💰 Financial Inclusion
+[mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp) · [daraja-ai](https://github.com/gabrielmahia/daraja-ai) · [biashara-ai](https://github.com/gabrielmahia/biashara-ai) · [mali-ai](https://github.com/gabrielmahia/mali-ai) · [remit-ai](https://github.com/gabrielmahia/remit-ai) · [sacco-scout](https://github.com/gabrielmahia/sacco-scout)
 
-*Organic. No paid promotion.*
+### 🏥 Health & Wellness
+[dawa-ai](https://github.com/gabrielmahia/dawa-ai) · [swahili-health-mcp](https://github.com/gabrielmahia/swahili-health-mcp) · [afua-ai](https://github.com/gabrielmahia/afua-ai) · [lishe-ai](https://github.com/gabrielmahia/lishe-ai) · [afya-ai](https://github.com/gabrielmahia/afya-ai)
 
----
+### 📚 Education
+[shule-ai](https://github.com/gabrielmahia/shule-ai) · [tafsiri-ai](https://github.com/gabrielmahia/tafsiri-ai) · [elimu-stats](https://github.com/gabrielmahia/elimu-stats) · [ongea-ai](https://github.com/gabrielmahia/ongea-ai)
 
-## Technical Stack
+### ⚖️ Civic & Legal
+[hati-ai](https://github.com/gabrielmahia/hati-ai) · [kenya-legal-rag](https://github.com/gabrielmahia/kenya-legal-rag) · [taarifa-ai](https://github.com/gabrielmahia/taarifa-ai) · [bajeti-ai](https://github.com/gabrielmahia/bajeti-ai) · [manunuzi-ai](https://github.com/gabrielmahia/manunuzi-ai) · [uchaguzi-ai](https://github.com/gabrielmahia/uchaguzi-ai) · [haki-ai](https://github.com/gabrielmahia/haki-ai) · [hesabu-agent](https://github.com/gabrielmahia/hesabu-agent)
 
-```
-Systems:        Windows/Linux admin · High-availability · STIG/NIST · Information Assurance
-Security:       CompTIA Security+ · Identity governance · Audit/compliance · CBRN
-AI/ML:          MCP · A2A · Google ADK · LlamaIndex · CrewAI · Deep Learning · Anomaly Detection
-Engineering:    Python · PowerShell · GitHub Actions · Docker · PyPI · Streamlit
-Payments/APIs:  Safaricom Daraja (M-Pesa) · Africa's Talking · REST
-Languages:      Swahili (Native) · English (Native) · French/Spanish/Somali/Urdu (Working)
-```
+### 🌾 Agriculture & Environment
+[shamba-ai](https://github.com/gabrielmahia/shamba-ai) · [mifugo-ai](https://github.com/gabrielmahia/mifugo-ai) · [mazao-intel](https://github.com/gabrielmahia/mazao-intel) · [mazingira-ai](https://github.com/gabrielmahia/mazingira-ai) · [floodwatch-kenya](https://github.com/gabrielmahia/floodwatch-kenya)
+
+### 🏠 Housing & Transport
+[nyumba-ai](https://github.com/gabrielmahia/nyumba-ai) · [landwatch](https://github.com/gabrielmahia/landwatch) · [safari-ai](https://github.com/gabrielmahia/safari-ai)
+
+### 🔌 Developer Infrastructure
+[kenya-mcp-hub](https://github.com/gabrielmahia/kenya-mcp-hub) · [wapimaji-mcp](https://github.com/gabrielmahia/wapimaji-mcp) · [kenya-rag](https://github.com/gabrielmahia/kenya-rag) · [civic-agent-kit](https://github.com/gabrielmahia/civic-agent-kit) · [nairobi-stack](https://github.com/gabrielmahia/nairobi-stack) · [east-africa-prompt-library](https://github.com/gabrielmahia/east-africa-prompt-library)
 
 ---
 
-## Deployed Tools (29)
+## 📊 Platform Presence
 
-**Civic & Accountability** · [WapiMaji](https://wapimaji.streamlit.app) · [FloodWatch](https://floodwatch-kenya.streamlit.app) · [TaarifaAI](https://taarifaai.streamlit.app) · [Macho ya Wananchi](https://macho-ya-wananchi.streamlit.app)
-
-**Health & Diaspora** · [AfyaAI](https://afyaai.streamlit.app) · [DiasporaAI](https://diasporaai.streamlit.app)
-
-**Finance** · [EasyStockTrader](https://easystocktrader.streamlit.app) *(SPX Income Engine v2)* · [DarajaAI](https://darajaniai.streamlit.app) · [RemitAI](https://remitai.streamlit.app)
-
-**Education & HR** · [ShuleAI](https://shuleniai.streamlit.app) · [KaziAI](https://kaziniai.streamlit.app)
-
-Full portfolio → [gabrielmahia.github.io](https://gabrielmahia.github.io)
+| Platform | Profile | Assets |
+|----------|---------|--------|
+| GitHub | [@gabrielmahia](https://github.com/gabrielmahia) | 100+ repos |
+| HuggingFace | [@gmahia](https://huggingface.co/gmahia) | Datasets: swahili-civic-nlp, kenya-civic-data, kenya-agricultural-qa, kenya-legal-nlp |
+| PyPI | [@gmahia](https://pypi.org/user/gmahia) | mpesa-mcp v0.1.9 |
+| Kaggle | [@gabrielmahia](https://www.kaggle.com/gabrielmahia) | Notebooks |
 
 ---
 
-## Background
+## 🏆 Recognition
 
-Kenyan-born U.S. citizen. Army veteran. Operations administrator. Swahili–English linguist (DLPT-certified). MBA, University of Nairobi. BSc IT, JKUAT. Twelve months embedded in Nairobi (2025–2026) building this portfolio during Kenya's governance realignment — in the field, not from a desk.
-
-Writing on power, institutions, and technology → [gabrielmahia.com](https://www.gabrielmahia.com)
-
-📬 contact@gabrielmahia.com · [About](https://gabrielmahia.github.io/about.html)
+- First implementation of MCP, A2A, and Google ADK for East Africa
+- Featured in awesome-mcp-servers (PR #3022)
+- LINGUA Africa grant applicant (Microsoft AI for Good Lab × Gates Foundation × Masakhane)
 
 ---
 
-## License
+## 📫 Connect
 
-**MIT** — MCP servers, SDKs, agents, RAG, developer infrastructure  
-**CC BY-NC-ND 4.0** — End-user Streamlit apps  
-**CC BY 4.0** — Published datasets
+- 🌐 [aikungfu.dev](https://aikungfu.dev)
+- 📧 contact@aikungfu.dev
+- 🇰🇪 Kenyan diaspora | Based in Manassas, Virginia
+
+---
+
+*"Consistency beats intensity. Strategy beats tactics. First-mover beats follower."*
