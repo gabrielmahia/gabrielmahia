@@ -4,7 +4,7 @@
 ### Decision Infrastructure for East Africa
 
 [![GitHub](https://img.shields.io/badge/GitHub-139_repos-181717?logo=github)](https://github.com/gabrielmahia)
-[![PyPI](https://img.shields.io/pypi/v/mpesa-mcp?label=mpesa-mcp&logo=pypi)](https://pypi.org/user/gmahia/)
+[![PyPI](https://img.shields.io/badge/PyPI-30_MCP_servers-blue?logo=pypi)](https://pypi.org/user/gmahia/)
 [![HuggingFace](https://img.shields.io/badge/🤗_HuggingFace-gmahia-orange)](https://huggingface.co/gmahia)
 [![Dev.to](https://img.shields.io/badge/Dev.to-gabrielmahia-0A0A0A?logo=devdotto)](https://dev.to/gabrielmahia)
 [![Glama](https://img.shields.io/badge/Glama-MCP_Listed-blue)](https://glama.ai/mcp/servers?query=author%3Agabrielmahia)
@@ -14,6 +14,14 @@
 ---
 
 > *Kenyan diaspora engineer building coordination infrastructure for East Africa — reducing opacity, enabling coordination, amplifying agency in under-resourced systems.*
+
+---
+
+## The Positioning
+
+**When 300 Kimi agent swarms show up in Nairobi, the tool layer is already ready.**
+
+Agent swarms are useful in proportion to the quality of their domain tools. The 30-server East Africa coordination stack is the structured API layer that makes AI agents actually work for Kenya's institutional landscape — not web-searched guesses, structured tool calls.
 
 ---
 
@@ -29,11 +37,9 @@
 
 ---
 
-## 23 MCP Servers — Complete Coordination Infrastructure
+## 30 MCP Servers — Complete Coordination Infrastructure
 
-Every major coordination function Kenya and East Africa needs, now accessible to AI agents.
-
-### Economic Layer
+### Economic Layer (10)
 | Server | Domain | PyPI |
 |--------|--------|------|
 | [mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp) | M-PESA mobile payments | ✅ |
@@ -41,11 +47,13 @@ Every major coordination function Kenya and East Africa needs, now accessible to
 | [bima-mcp](https://github.com/gabrielmahia/bima-mcp) | Insurance | ✅ |
 | [soko-mcp](https://github.com/gabrielmahia/soko-mcp) | Commodity markets | ✅ |
 | [sifa-mcp](https://github.com/gabrielmahia/sifa-mcp) | Reputation/trust | ✅ |
-| [remit-mcp](https://github.com/gabrielmahia/remit-mcp) | Remittance | ✅ |
+| [remit-mcp](https://github.com/gabrielmahia/remit-mcp) | Remittance corridors | ✅ |
 | [kra-mcp](https://github.com/gabrielmahia/kra-mcp) | Tax compliance (≈ TurboTax) | ✅ |
 | [faida-mcp](https://github.com/gabrielmahia/faida-mcp) | Capital markets (≈ Fidelity) | ✅ |
+| [familia-mcp](https://github.com/gabrielmahia/familia-mcp) | Family law & inheritance (≈ LegalZoom) | ✅ |
+| [diaspora-mcp](https://github.com/gabrielmahia/diaspora-mcp) | Full diaspora lifecycle | ✅ |
 
-### Physical Infrastructure
+### Physical Infrastructure (4)
 | Server | Domain | PyPI |
 |--------|--------|------|
 | [wapimaji-mcp](https://github.com/gabrielmahia/wapimaji-mcp) | Drought & water | ✅ |
@@ -53,7 +61,7 @@ Every major coordination function Kenya and East Africa needs, now accessible to
 | [usafiri-mcp](https://github.com/gabrielmahia/usafiri-mcp) | Transport / NTSA | ✅ |
 | [ardhi-mcp](https://github.com/gabrielmahia/ardhi-mcp) | Land administration | ✅ |
 
-### Social Infrastructure
+### Social Infrastructure (9)
 | Server | Domain | PyPI |
 |--------|--------|------|
 | [afya-mcp](https://github.com/gabrielmahia/afya-mcp) | Health / NHIF | ✅ |
@@ -63,31 +71,40 @@ Every major coordination function Kenya and East Africa needs, now accessible to
 | [haki-ya-kazi-mcp](https://github.com/gabrielmahia/haki-ya-kazi-mcp) | Labour rights (≈ ACAS) | ✅ |
 | [kilimo-mcp](https://github.com/gabrielmahia/kilimo-mcp) | Precision agriculture (≈ Climate Corp) | ✅ |
 | [jumuia-mcp](https://github.com/gabrielmahia/jumuia-mcp) | SACCOs & chamas | ✅ |
+| [church-mcp](https://github.com/gabrielmahia/church-mcp) | Community/religious institutions | ✅ |
+| [tafsiri-mcp](https://github.com/gabrielmahia/tafsiri-mcp) | Translation (Swahili, Kikuyu, Luo) | ✅ |
 
-### Civic / Governance Layer
+### Civic / Governance Layer (5)
 | Server | Domain | PyPI |
 |--------|--------|------|
 | [nyumba-mcp](https://github.com/gabrielmahia/nyumba-mcp) | Housing | ✅ |
-| [habari-mcp](https://github.com/gabrielmahia/habari-mcp) | Civic information / Gazette | ✅ |
+| [habari-mcp](https://github.com/gabrielmahia/habari-mcp) | Civic info / Gazette | ✅ |
 | [mazingira-mcp](https://github.com/gabrielmahia/mazingira-mcp) | Environment / NEMA | ✅ |
+| [county-mcp](https://github.com/gabrielmahia/county-mcp) | Kenya 47 counties | ✅ |
+| [historia-mcp](https://github.com/gabrielmahia/historia-mcp) | Historical archives | ✅ |
+
+### Foundation Layer (2)
+| Server | Domain | PyPI |
+|--------|--------|------|
 | [civic-agent-kit](https://github.com/gabrielmahia/civic-agent-kit) | Unified civic SDK | ✅ |
+| [offline-mcp](https://github.com/gabrielmahia/offline-mcp) | Local AI inference (Ollama) | ✅ |
 
 ---
 
 ## Applications (Streamlit)
 
-[easystocktrader](https://easystocktrader.streamlit.app) · [DarajaAI](https://github.com/gabrielmahia/daraja-ai) · [ShuleAI](https://github.com/gabrielmahia/shule-ai) · [KaziAI](https://github.com/gabrielmahia/kazi-ai) · [JumuiaAI](https://github.com/gabrielmahia/jumuia-ai) · [OpenResilience Kenya](https://github.com/gabrielmahia/openresilience)
+[easystocktrader](https://easystocktrader.streamlit.app) · [DarajaAI](https://github.com/gabrielmahia/daraja-ai) · [ShuleAI](https://github.com/gabrielmahia/shule-ai) · [KaziAI](https://github.com/gabrielmahia/kazi-ai) · [OpenResilience Kenya](https://github.com/gabrielmahia/openresilience)
 
 ---
 
 ## Across Every Developer Platform
 
 🐙 [GitHub](https://github.com/gabrielmahia) — 139 repos  
-🤗 [HuggingFace](https://huggingface.co/gmahia) — datasets & model cards  
-📦 [PyPI](https://pypi.org/user/gmahia/) — 23 MCP servers  
+🤗 [HuggingFace](https://huggingface.co/gmahia) — 5 datasets  
+📦 [PyPI](https://pypi.org/user/gmahia/) — 30 MCP servers  
 📊 [Kaggle](https://kaggle.com/gabrielmahia) — Kenya data notebooks  
-📝 [Dev.to](https://dev.to/gabrielmahia) — 11+ technical articles  
-⚡ [Glama](https://glama.ai/mcp/servers?query=author%3Agabrielmahia) — MCP directory listings  
+📝 [Dev.to](https://dev.to/gabrielmahia) — 23+ articles  
+⚡ [Glama](https://glama.ai/mcp/servers?query=author%3Agabrielmahia) — MCP directory  
 
 ---
 
