@@ -123,3 +123,18 @@ Manassas, Virginia · Building for 47M+ Swahili speakers
   <a href="https://gabrielmahia.github.io">gabrielmahia.github.io</a> · 
   <a href="https://gabrielmahia.github.io/nairobi-stack">The Nairobi Stack</a>
 </div>
+
+
+## Why Data Sovereignty Matters
+
+Across the Global South, citizens' health records, land titles, and civic data are increasingly extracted by foreign systems as conditions for receiving aid, services, or connectivity.
+
+This portfolio builds the alternative: **AI-powered institutional infrastructure that runs locally, processes data in-country, and gives communities control of their own information.**
+
+The [offline-mcp](https://github.com/gabrielmahia/offline-mcp) server is the sovereignty floor — Ollama-backed inference that runs on a Raspberry Pi with no API key and no data leaving the device.
+
+The [sii-stack](https://github.com/gabrielmahia/sii-stack) is the production architecture — n8n + LiteLLM with tri-polar routing (Western / Eastern / Sovereign) so no single government or corporation controls the intelligence layer.
+
+Every MCP server in this stack was built so that a Kenyan community health worker, land administrator, or small business owner can get AI assistance without their data becoming someone else's training set.
+
+---
