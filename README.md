@@ -125,6 +125,39 @@ Manassas, Virginia · Building for 47M+ Swahili speakers
 </div>
 
 
+
+## Philosophy
+
+> *"Diagnose structural absences, not competitive gaps."*
+
+M-Pesa wasn't missing from the AI agent ecosystem because engineers hadn't tried.
+It was missing because the engineer who understood it from the inside wasn't building there yet.
+
+The 31 MCP servers in this portfolio were built at the intersection of three things:
+what the East African institutional layer needs, what AI coordination infrastructure makes possible,
+and what I uniquely know how to build.
+
+That intersection is where I work.
+
+Five principles that drive everything here:
+
+- **Build rails, not trains.** TCP/IP, railroads, M-Pesa — infrastructure creates ecosystems.
+  Each MCP server is a rail. Others build the trains.
+
+- **Diagnose what's missing.** Not "how do I compete?" but "what doesn't exist yet?"
+
+- **Stewardship, not ownership.** Data sovereignty: communities should steward their own data.
+  That's why `offline-mcp` runs on a Raspberry Pi with no API key.
+
+- **Compounding beats intensity.** 31 servers built incrementally. Each one compounds the next.
+
+- **Timing is strategy.** The AI infrastructure window is open now.
+  The Nairobi AI hub moment is real. Build now or build later — but the leverage differs.
+
+> *"Become who you are, build what is missing, steward what you've been given,
+> and leave more order than chaos behind."*
+
+---
 ## Why Data Sovereignty Matters
 
 Across the Global South, citizens' health records, land titles, and civic data are increasingly extracted by foreign systems as conditions for receiving aid, services, or connectivity.
