@@ -33,7 +33,7 @@ Agent swarms are useful in proportion to the quality of their domain tools. The 
 | A2A (Agent-to-Agent) | [kenya-a2a](https://github.com/gabrielmahia/kenya-a2a) | 🟢 Live |
 | Google ADK | [kenya-adk](https://github.com/gabrielmahia/kenya-adk) | 🟢 Live |
 
-*First documented engineer in East Africa to deploy all three major AI agent protocols.*
+
 
 ---
 
@@ -99,7 +99,7 @@ Agent swarms are useful in proportion to the quality of their domain tools. The 
 
 ## Across Every Developer Platform
 
-🐙 [GitHub](https://github.com/gabrielmahia) — 139 repos  
+🐙 [GitHub](https://github.com/gabrielmahia)  
 🤗 [HuggingFace](https://huggingface.co/gmahia) — 5 datasets  
 📦 [PyPI](https://pypi.org/user/gmahia/) — 30 MCP servers  
 📊 [Kaggle](https://kaggle.com/gabrielmahia) — Kenya data notebooks  
