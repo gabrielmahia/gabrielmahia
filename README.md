@@ -25,11 +25,11 @@ Agent swarms are useful in proportion to the quality of their domain tools. The 
 
 ---
 
-## Protocol Firsts for East Africa
+## Protocol Implementations for East Africa
 
 | Protocol | Repo | Status |
 |----------|------|--------|
-| MCP (Model Context Protocol) | [mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp) | 🟢 PyPI · 1,200+ downloads · 14 countries |
+| MCP (Model Context Protocol) | [mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp) | 🟢 PyPI |
 | A2A (Agent-to-Agent) | [kenya-a2a](https://github.com/gabrielmahia/kenya-a2a) | 🟢 Live |
 | Google ADK | [kenya-adk](https://github.com/gabrielmahia/kenya-adk) | 🟢 Live |
 
