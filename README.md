@@ -37,7 +37,7 @@ Agent swarms are useful in proportion to the quality of their domain tools. The 
 
 ---
 
-## 30 MCP Servers — Complete Coordination Infrastructure
+## MCP Servers — Coordination Infrastructure
 
 ### Economic Layer (10)
 | Server | Domain | PyPI |
@@ -64,7 +64,7 @@ Agent swarms are useful in proportion to the quality of their domain tools. The 
 ### Social Infrastructure (9)
 | Server | Domain | PyPI |
 |--------|--------|------|
-| [afya-mcp](https://github.com/gabrielmahia/afya-mcp) | Health / NHIF | ✅ |
+| [afya-mcp](https://github.com/gabrielmahia/afya-mcp) | Health / SHA (SHIF) | ✅ |
 | [afya-ya-akili-mcp](https://github.com/gabrielmahia/afya-ya-akili-mcp) | Mental health (≈ BetterHelp) | ✅ |
 | [elimu-mcp](https://github.com/gabrielmahia/elimu-mcp) | Education / HELB | ✅ |
 | [kazi-mcp](https://github.com/gabrielmahia/kazi-mcp) | Labor market | ✅ |
@@ -100,8 +100,8 @@ Agent swarms are useful in proportion to the quality of their domain tools. The 
 ## Across Every Developer Platform
 
 🐙 [GitHub](https://github.com/gabrielmahia)  
-🤗 [HuggingFace](https://huggingface.co/gmahia) — 5 datasets  
-📦 [PyPI](https://pypi.org/user/gmahia/) — 30 MCP servers  
+🤗 [HuggingFace](https://huggingface.co/gmahia) — East Africa datasets  
+📦 [PyPI](https://pypi.org/user/gmahia/) — MCP servers and tools  
 📊 [Kaggle](https://kaggle.com/gabrielmahia) — Kenya data notebooks  
 📝 [Dev.to](https://dev.to/gabrielmahia) — 23+ articles  
 ⚡ [Glama](https://glama.ai/mcp/servers?query=author%3Agabrielmahia) — MCP directory  
@@ -133,7 +133,7 @@ Virginia · Building for 47M+ Swahili speakers
 M-Pesa wasn't missing from the AI agent ecosystem because engineers hadn't tried.
 It was missing because the engineer who understood it from the inside wasn't building there yet.
 
-The 31 MCP servers in this portfolio were built at the intersection of three things:
+The MCP servers in this portfolio were built at the intersection of three things:
 what the East African institutional layer needs, what AI coordination infrastructure makes possible,
 and what I uniquely know how to build.
 
@@ -149,7 +149,7 @@ Five principles that drive everything here:
 - **Stewardship, not ownership.** Data sovereignty: communities should steward their own data.
   That's why `offline-mcp` runs on a Raspberry Pi with no API key.
 
-- **Compounding beats intensity.** 31 servers built incrementally. Each one compounds the next.
+- **Compounding beats intensity.** The servers were built incrementally. Each one compounds the next.
 
 - **Timing is strategy.** The AI infrastructure window is open now.
   The Nairobi AI hub moment is real. Build now or build later — but the leverage differs.
