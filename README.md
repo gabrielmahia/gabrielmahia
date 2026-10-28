@@ -3,8 +3,8 @@
 # Gabriel Mahia
 ### Decision Infrastructure for East Africa
 
-[![GitHub](https://img.shields.io/badge/GitHub-139_repos-181717?logo=github)](https://github.com/gabrielmahia)
-[![PyPI](https://img.shields.io/badge/PyPI-30_MCP_servers-blue?logo=pypi)](https://pypi.org/user/gmahia/)
+[![GitHub](https://img.shields.io/badge/GitHub-150_public_repos-181717?logo=github)](https://github.com/gabrielmahia)
+[![PyPI](https://img.shields.io/badge/PyPI-33_MCP_servers-blue?logo=pypi)](https://pypi.org/user/gmahia/)
 [![HuggingFace](https://img.shields.io/badge/🤗_HuggingFace-gmahia-orange)](https://huggingface.co/gmahia)
 [![Dev.to](https://img.shields.io/badge/Dev.to-gabrielmahia-0A0A0A?logo=devdotto)](https://dev.to/gabrielmahia)
 [![Glama](https://img.shields.io/badge/Glama-MCP_Listed-blue)](https://glama.ai/mcp/servers?query=author%3Agabrielmahia)
@@ -99,12 +99,13 @@ Agent swarms are useful in proportion to the quality of their domain tools. The 
 
 ## Across Every Developer Platform
 
-🐙 [GitHub](https://github.com/gabrielmahia)  
-🤗 [HuggingFace](https://huggingface.co/gmahia) — East Africa datasets  
-📦 [PyPI](https://pypi.org/user/gmahia/) — MCP servers and tools  
-📊 [Kaggle](https://kaggle.com/gabrielmahia) — Kenya data notebooks  
-📝 [Dev.to](https://dev.to/gabrielmahia) — 23+ articles  
-⚡ [Glama](https://glama.ai/mcp/servers?query=author%3Agabrielmahia) — MCP directory  
+🐙 [GitHub](https://github.com/gabrielmahia) — @gabrielmahia  
+🤗 [HuggingFace](https://huggingface.co/gmahia) — @gmahia  
+📦 [PyPI](https://pypi.org/user/gmahia/) — gmahia  
+📊 [Kaggle](https://www.kaggle.com/gmahia) — @gmahia  
+📝 [Dev.to](https://dev.to/gabrielmahia) — @gabrielmahia  
+⚡ [Glama](https://glama.ai/mcp/servers?query=author%3Agabrielmahia) — 30+ servers  
+🧭 [MCP Registry](https://registry.modelcontextprotocol.io/?search=io.github.gabrielmahia) — 30+ servers  
 
 ---
 
