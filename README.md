@@ -196,3 +196,7 @@ The [sii-stack](https://github.com/gabrielmahia/sii-stack) is the production arc
 Every MCP server in this stack was built so that a Kenyan community health worker, land administrator, or small business owner can get AI assistance without their data becoming someone else's training set.
 
 ---
+
+## IP & Collaboration
+
+Licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/). This is source-available, not open source: you may share it unchanged, with attribution, for non-commercial purposes. Modified versions may not be distributed under this licence. Commercial use, modification, redistribution and partnerships need written permission: contact@aikungfu.dev. Third-party material keeps its own licence.
