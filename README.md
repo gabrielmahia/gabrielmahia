@@ -15,6 +15,30 @@
 
 > *Kenyan diaspora engineer building coordination infrastructure for East Africa — reducing opacity, enabling coordination, amplifying agency in under-resourced systems.*
 
+> Writing, research and the rest of my work: [gabrielmahia.com](https://www.gabrielmahia.com)
+
+---
+
+## Start here
+- **[mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp)**: M-PESA (Daraja) for AI agents, with a person confirming every payment through the client, per-payment and per-session limits, and an allowlist. Released and tested; outside contributors have filed issues and PRs. No live payment has been made through it.
+- **Live public data for agents**: twelve MCP servers with opt-in tools that answer from free authoritative sources (World Bank, IMF, the DHS health surveys (run by ICF with USAID funding), Copernicus GloFAS, Open-Meteo, EU JRC PVGIS, WFP), each naming its source and returning an error rather than a guess when a service is down. Released and tested.
+- **Swahili speech-recognition evaluation**: nine recognisers on Kenyan Swahili, scored for words and for spoken numbers, with licences checked and negative results kept. Research.
+- **[nairobi-stack](https://github.com/gabrielmahia/nairobi-stack)**: the catalogue of everything else, with each project's status.
+
+## What the work covers
+| Area | Examples | Maturity |
+|---|---|---|
+| Payments and financial infrastructure | mpesa-mcp, daraja-v3, remit-mcp | Released and tested |
+| Data, analytics and decision support | kilimo, soko, kazi, faida, wapimaji servers | Released and tested (simulated data is labelled) |
+| Civic and institutional technology | county, budget and accountability tools | Prototype |
+| AI evaluation, language and research | Swahili ASR evaluation, voice-intent study | Research |
+| Applied AI and model integration | MCP servers, agent context files | Released and tested |
+| Systems architecture and automation | coordination bus, ingestion tools | Prototype |
+| Open-source tools and libraries | CLIs and Python packages on PyPI | Released and tested |
+| Experimental, educational and historical | earlier creative and learning projects | Preserved as they are |
+
+Maturity labels mean: *released and tested* = published, with tests and passing CI; *prototype* = working code, not released and tested; *research* = studies and evaluations. Nothing here is described as production-validated, because no production deployment is documented yet.
+
 ---
 
 ## The Positioning
