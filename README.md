@@ -20,7 +20,7 @@
 ---
 
 ## Start here
-- **[mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp)**: M-PESA (Daraja) for AI agents, with a person confirming every payment through the client, per-payment and per-session limits, and an allowlist. Released and tested; outside contributors have filed issues and PRs. No live payment has been made through it.
+- **[mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp)**: M-PESA (Daraja) for AI agents, with a person confirming every payment through the client, per-payment and per-session limits, and an allowlist. Released and tested. No live payment has been made through it. Separately, its Python Daraja SDK, [daraja-v3](https://github.com/gabrielmahia/mpesa-python), has merged two bug-fix pull requests from an outside developer who reported finding the bugs while running it against the live Daraja API.
 - **Live public data for agents**: twelve MCP servers with opt-in tools that answer from free authoritative sources (World Bank, IMF, the DHS health surveys (run by ICF with USAID funding), Copernicus GloFAS, Open-Meteo, EU JRC PVGIS, WFP), each naming its source and returning an error rather than a guess when a service is down. Released and tested.
 - **Swahili speech-recognition evaluation**: nine recognisers on Kenyan Swahili, scored for words and for spoken numbers, with licences checked and negative results kept. Research.
 - **[nairobi-stack](https://github.com/gabrielmahia/nairobi-stack)**: the catalogue of everything else, with each project's status.
